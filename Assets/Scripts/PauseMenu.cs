@@ -42,12 +42,12 @@ public class PauseMenu : MonoBehaviour {
         foreach (GameObject button in buttons) {
             button.gameObject.SetActive(false);
         }
-        Time.timeScale = 1;
+        Time.timeScale = 1.0f;
         paused = false;
     }
 
     public void Restart() {
-        Time.timeScale = 1;
+        Time.timeScale = 1.0f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

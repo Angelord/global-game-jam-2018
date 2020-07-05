@@ -54,7 +54,7 @@ public class Enemy : MonoBehaviour , IDamageTaker {
     public void Initialize() { }
 
 	// Update is called once per frame
-	void Update () {
+	private void FixedUpdate () {
         if (!CombatManager.GameOver) {
             SetTartgetDirection();
             MoveTowardsTarget();
@@ -96,7 +96,7 @@ public class Enemy : MonoBehaviour , IDamageTaker {
     private void MoveTowardsTarget() {
         Vector3 direction = targetDirection - transform.position;
         direction.Normalize();
-        GetComponent<Rigidbody2D>().AddForce(direction*speed,ForceMode2D.Force);
+        GetComponent<Rigidbody2D>().AddForce(direction * speed,ForceMode2D.Force);
     }
 
     public int Health {

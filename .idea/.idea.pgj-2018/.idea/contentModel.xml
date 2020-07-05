@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Projects\Games\pgj-2018" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Editor" t="Include">
+          <e p="TextWriterEditor.cs" t="Include" />
+        </e>
+        <e p="Grow.cs" t="Include" />
+        <e p="Plus_fx.cs" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="Boss.cs" t="Include" />
+          <e p="BossSpawner.cs" t="Include" />
+          <e p="Buff.cs" t="Include" />
+          <e p="ButtonSound.cs" t="Include" />
+          <e p="CameraShake" t="Include">
+            <e p="PeriodicShake.cs" t="Include" />
+            <e p="PerlinShake.cs" t="Include" />
+            <e p="RandomShake.cs" t="Include" />
+            <e p="Util_Easing.cs" t="Include" />
+            <e p="Util_Noise.cs" t="Include" />
+          </e>
+          <e p="Character.cs" t="Include" />
+          <e p="Coin.cs" t="Include" />
+          <e p="CoinSpawner.cs" t="Include" />
+          <e p="CombatManager.cs" t="Include" />
+          <e p="Cursor.cs" t="Include" />
+          <e p="Effects" t="Include">
+            <e p="PhantomTrail.cs" t="Include" />
+            <e p="PushbackWave.cs" t="Include" />
+          </e>
+          <e p="Enemy.cs" t="Include" />
+          <e p="EnemySpawner.cs" t="Include" />
+          <e p="EnemySwarmer.cs" t="Include" />
+          <e p="FollowPlayer.cs" t="Include" />
+          <e p="GUI" t="Include">
+            <e p="CombatGUI.cs" t="Include" />
+            <e p="HealthBar.cs" t="Include" />
+            <e p="MainMenu.cs" t="Include" />
+            <e p="PushbackBar.cs" t="Include" />
+            <e p="Score.cs" t="Include" />
+            <e p="TextWriter.cs" t="Include" />
+          </e>
+          <e p="Heal_fx.cs" t="Include" />
+          <e p="HealBuff.cs" t="Include" />
+          <e p="IDamageTaker.cs" t="Include" />
+          <e p="InvunerabilityBuff.cs" t="Include" />
+          <e p="KillCounter.cs" t="Include" />
+          <e p="LevelEnd.cs" t="Include" />
+          <e p="ObjectUtility" t="Include">
+            <e p="DelayedEnable.cs" t="Include" />
+            <e p="FadeoutObject.cs" t="Include" />
+            <e p="MeshLayerSelector.cs" t="Include" />
+            <e p="TemporaryObject.cs" t="Include" />
+          </e>
+          <e p="PauseMenu.cs" t="Include" />
+          <e p="PowerUp.cs" t="Include" />
+          <e p="PowerUpSpawner.cs" t="Include" />
+          <e p="Reseter.cs" t="Include" />
+          <e p="Sine.cs" t="Include" />
+          <e p="SineSine.cs" t="Include" />
+          <e p="SineSpawner.cs" t="Include" />
+          <e p="SortLayerByY.cs" t="Include" />
+          <e p="SoundManager.cs" t="Include" />
+          <e p="SpeedBuff.cs" t="Include" />
+          <e p="Sword.cs" t="Include" />
+          <e p="SwordGroup.cs" t="Include" />
+          <e p="SwordRegenBuff.cs" t="Include" />
+          <e p="SwordRegenPowerUp.cs" t="Include" />
+          <e p="TimedDeath.cs" t="Include" />
+          <e p="WorldMap.cs" t="Include" />
+        </e>
+        <e p="Shaders" t="Include">
+          <e p="Sprites-Static.shader" t="Include" />
+          <e p="UnitySprites.cginc" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="pgj-2018.sln" t="IncludeFlat" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+    <e p="C:\Users\Almoxis\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Almoxis\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_pgj-2018.-1003991720.00" t="ExcludeRecursive" />
+  </component>
+</project>

@@ -52,10 +52,12 @@ public class Character : MonoBehaviour, IDamageTaker {
 		shake = GameObject.FindGameObjectWithTag ("CameraShaker").GetComponent<PerlinShake> ();
     }
 
+    private void FixedUpdate() {
+        HandleMovement();
+    }
+
     void Update() {
-
-
-
+        
         if (Input.GetButtonDown("Jump")) {
             if(finalDashCheck < 0 || Time.time>  finalDashCheck + dashCoolDown){
                 GetComponent<PhantomTrail>().enabled = true;
@@ -63,7 +65,6 @@ public class Character : MonoBehaviour, IDamageTaker {
                 dashing = true;
             }
         }
-        HandleMovement();
 		ClampToPlayingField ();
         HandleAttack();
         HandleShockWave();
@@ -91,7 +92,7 @@ public class Character : MonoBehaviour, IDamageTaker {
 
         Vector2 dirVector = new Vector2(xInput, yInput);
         if (dashing) {
-            rigidbody.AddForce(dirVector * acceleration * acceleration, ForceMode2D.Force);
+            rigidbody.AddForce(acceleration * acceleration * dirVector, ForceMode2D.Force);
             dashing = false;
             finalDashCheck = Time.time;
         }
