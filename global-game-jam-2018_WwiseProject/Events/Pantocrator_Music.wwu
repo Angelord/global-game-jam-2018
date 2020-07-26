@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6FEE5800-D059-4A3A-A500-B49053A23341}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Pantocrator_Music" ID="{6FEE5800-D059-4A3A-A500-B49053A23341}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Music" ID="{F92A76E3-E2B5-4A37-B564-32363943F8EB}">
+					<ChildrenList>
+						<Action Name="" ID="{B083923F-38AF-4220-ADB1-AA291A43BCC4}" ShortID="144539870">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{0A1AF34A-0DAD-412A-94EC-67FC2DE1C4D0}" WorkUnitID="{9F3346F6-5A9B-428A-BAFD-D7DDAAAD54A3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

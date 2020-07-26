@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E7060F1C-790A-4948-B67D-DD1157D1880F}" SchemaVersion="97" RootDocumentID="{0FC61EA5-C7ED-4A2B-BCF3-001D75E35E36}">
+	<States>
+		<WorkUnit Name="Pantocrator" ID="{E7060F1C-790A-4948-B67D-DD1157D1880F}" OwnerID="{0FC61EA5-C7ED-4A2B-BCF3-001D75E35E36}" PersistMode="Nested">
+			<ChildrenList>
+				<StateGroup Name="State" ID="{CBD555B2-5F1F-4FC1-B1FF-27B07B113B71}">
+					<ChildrenList>
+						<State Name="None" ID="{23D8F4C5-7EDE-4BD6-8075-266BC2C7C4F4}"/>
+						<State Name="Dead" ID="{5EA294BF-5314-4E53-9F7A-8CC592878757}"/>
+						<State Name="Alive" ID="{B6376BE6-222A-4642-AD68-2B62BA18492D}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Music_State" ID="{5F1C8E4B-BCF6-4527-A486-B477348489F0}">
+					<ChildrenList>
+						<State Name="None" ID="{120192E9-4844-408C-85D1-943D2E827AC5}"/>
+						<State Name="Gameplay" ID="{CCABDF71-1D7C-477C-AF98-81A7032551BA}"/>
+						<State Name="Menu" ID="{0E94EBDF-5D93-426E-ACC3-5082A1E781EB}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

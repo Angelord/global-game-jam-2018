@@ -1,0 +1,1235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9F3346F6-5A9B-428A-BAFD-D7DDAAAD54A3}" SchemaVersion="97">
+	<InteractiveMusic>
+		<WorkUnit Name="Music" ID="{9F3346F6-5A9B-428A-BAFD-D7DDAAAD54A3}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSwitchContainer Name="Music" ID="{0A1AF34A-0DAD-412A-94EC-67FC2DE1C4D0}" ShortID="182227460">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB069747-0B79-4019-8316-038FDCC79110}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5507DBF5-F8C3-426E-A994-4F765F93A758}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicPlaylistContainer Name="Music_In_Game" ID="{A560869F-E5FF-49CF-A707-20F39C34E131}" ShortID="171963047">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB069747-0B79-4019-8316-038FDCC79110}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5507DBF5-F8C3-426E-A994-4F765F93A758}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Music_InGame" ID="{3CB8B82C-F8C4-498F-9A19-5D7C90A0877B}" ShortID="465356183">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="98000"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB069747-0B79-4019-8316-038FDCC79110}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5507DBF5-F8C3-426E-A994-4F765F93A758}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Pantocrator_M_InGame_Backspin_120_4-4" ID="{0662F122-ED4C-4D36-9275-11B760EAAC43}" ShortID="516748573">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5507DBF5-F8C3-426E-A994-4F765F93A758}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pantocrator_M_InGame_Backspin_120_4-4" ID="{7277D70D-B16F-44F1-B626-1F041427192B}">
+													<Language>English(US)</Language>
+													<AudioFile>Music\Pantocrator_M_InGame_Backspin_120_4-4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="333738638"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{D376FB2B-4CCC-454C-BD41-AE25866E8EC0}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{06EA1F55-3AEA-4E1C-B3A0-AA54BD9C6980}">
+													<ClipList>
+														<MusicClip Name="Pantocrator_M_InGame_Backspin_120_4-4" ID="{94C9F379-5A26-45CF-A632-DAC4EDFDE0B9}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="96000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Pantocrator_M_InGame_Backspin_120_4-4" ID="{7277D70D-B16F-44F1-B626-1F041427192B}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Pantocrator_M_InGame_Bass_120_4-4" ID="{B8CDB3C6-3CBF-4B9C-B2EC-09AF6962A087}" ShortID="462201345">
+											<PropertyList>
+												<Property Name="MusicTrackType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5507DBF5-F8C3-426E-A994-4F765F93A758}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pantocrator_M_InGame_Bass_120_4-4" ID="{8F3DB896-CFDB-4504-9EAD-1F647299DD01}">
+													<Language>English(US)</Language>
+													<AudioFile>Music\Pantocrator_M_InGame_Bass_120_4-4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="513801684"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{D3BED3EA-5DDE-4A65-842B-7C67F7A93288}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{D749E9BD-9B2C-482F-BCCD-4B234AD3CBB5}">
+													<ClipList>
+														<MusicClip Name="Pantocrator_M_InGame_Bass_120_4-4" ID="{6B6D36A9-1996-476B-B25E-436656EDA19C}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="96000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Pantocrator_M_InGame_Bass_120_4-4" ID="{8F3DB896-CFDB-4504-9EAD-1F647299DD01}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{272E12C5-9047-48D8-9596-ACB483A921AE}">
+													<ClipList>
+														<MusicClip Name="Pantocrator_M_InGame_Bass_120_4-4" ID="{C2C1902E-3698-41F4-966D-B6C95AA870FD}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="96000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Pantocrator_M_InGame_Bass_120_4-4" ID="{8F3DB896-CFDB-4504-9EAD-1F647299DD01}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{0C3AE41C-7ACA-43AA-A98B-7391B98398F4}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>40.12222</XPos>
+																				<YPos>6.01796</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>52.14491</XPos>
+																				<YPos>19.99876</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>96</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{77908657-0EE7-44AD-8B13-29AAE5590A08}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>9.78591</XPos>
+																				<YPos>-1.46638</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>14.11967</XPos>
+																				<YPos>-3.03807</YPos>
+																				<Flags>0</Flags>
+																				<SegmentShape>SCurve</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>54.10209</XPos>
+																				<YPos>-0.13599</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>67.52277</XPos>
+																				<YPos>-0.34405</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>76.60968</XPos>
+																				<YPos>-1.46638</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>96</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Pantocrator_M_InGame_Cymbals_120_4-4" ID="{9B658DEC-0EBE-49E6-A4D9-E1F4231390EE}" ShortID="643289437">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5507DBF5-F8C3-426E-A994-4F765F93A758}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pantocrator_M_InGame_Cymbals_120_4-4" ID="{D190A9D9-3FF7-4D73-B18F-76C3D1436E69}">
+													<Language>English(US)</Language>
+													<AudioFile>Music\Pantocrator_M_InGame_Cymbals_120_4-4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="885678159"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{B106A022-1731-4BAA-8024-1EDAF39B66BC}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{568BFA7B-7C96-4E23-AD60-EBF1A042A417}">
+													<ClipList>
+														<MusicClip Name="Pantocrator_M_InGame_Cymbals_120_4-4" ID="{C4D32F8A-34E7-48F1-A0F2-3F8889C8F9DD}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="96000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Pantocrator_M_InGame_Cymbals_120_4-4" ID="{D190A9D9-3FF7-4D73-B18F-76C3D1436E69}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Pantocrator_M_InGame_Drums_01_120_4-4" ID="{1DAB7989-FCE1-4F51-A3A9-FC1FBFC35674}" ShortID="154808635">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5507DBF5-F8C3-426E-A994-4F765F93A758}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pantocrator_M_InGame_Drums_01_120_4-4" ID="{FBC7C55F-FABD-4BBD-BD4D-19FC5E5A9F78}">
+													<Language>English(US)</Language>
+													<AudioFile>Music\Pantocrator_M_InGame_Drums_01_120_4-4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="188710017"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{B877A14E-0CFF-4828-9880-99B4136427A0}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{D9DEADC9-408C-4736-9A7E-24407CB3CC98}">
+													<ClipList>
+														<MusicClip Name="Pantocrator_M_InGame_Drums_01_120_4-4" ID="{F6F3338E-11CB-4029-A33C-951654FB87E4}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="96000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Pantocrator_M_InGame_Drums_01_120_4-4" ID="{FBC7C55F-FABD-4BBD-BD4D-19FC5E5A9F78}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Pantocrator_M_InGame_Drums_02_120_4-4" ID="{AAF8A1BC-7570-4DF9-9699-9684F36FE632}" ShortID="979298340">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5507DBF5-F8C3-426E-A994-4F765F93A758}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pantocrator_M_InGame_Drums_02_120_4-4" ID="{332483BA-38C4-467A-8434-03CD4A27C35D}">
+													<Language>English(US)</Language>
+													<AudioFile>Music\Pantocrator_M_InGame_Drums_02_120_4-4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="989850071"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{1DBBC2A8-1261-42C2-ACA3-086852EBDF18}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{031290A3-DC59-4F6F-95E6-2CF74A7D038C}">
+													<ClipList>
+														<MusicClip Name="Pantocrator_M_InGame_Drums_02_120_4-4" ID="{8F0510FC-BBE4-42C0-AAEE-E6B69DEF52D3}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="96000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Pantocrator_M_InGame_Drums_02_120_4-4" ID="{332483BA-38C4-467A-8434-03CD4A27C35D}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Pantocrator_M_InGame_Lead_120_4-4" ID="{41C4A35F-EEC2-4BB6-B209-BA50286F7B51}" ShortID="787210748">
+											<PropertyList>
+												<Property Name="MusicTrackType" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5507DBF5-F8C3-426E-A994-4F765F93A758}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pantocrator_M_InGame_Lead_120_4-4" ID="{8393293E-6970-4A65-AAAF-A071C3F7FEA7}">
+													<Language>English(US)</Language>
+													<AudioFile>Music\Pantocrator_M_InGame_Lead_120_4-4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="833336751"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{829EFC86-C6F8-48F9-9CC8-64E1B8349D3E}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{FD3D42C6-51BE-4C1E-983D-BCD0339B7164}">
+													<ClipList>
+														<MusicClip Name="Pantocrator_M_InGame_Lead_120_4-4" ID="{22958609-A462-4029-85DA-4074635DE194}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="96000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Pantocrator_M_InGame_Lead_120_4-4" ID="{8393293E-6970-4A65-AAAF-A071C3F7FEA7}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{89BF7C7D-557B-4648-81E7-DDD24B87075A}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>35.78846</XPos>
+																				<YPos>7.52812</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>41.79981</XPos>
+																				<YPos>19.22205</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>60.81243</XPos>
+																				<YPos>0.58098</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>81.36284</XPos>
+																				<YPos>9.1248</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>96</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{028741CC-E7A8-4F16-A527-25B03411853B}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>41.79981</XPos>
+																				<YPos>-0.13599</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>57.45726</XPos>
+																				<YPos>-1.46638</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>72.69532</XPos>
+																				<YPos>-0.13599</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>86.67519</XPos>
+																				<YPos>-1.15263</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>96</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{E65AE8DF-68DF-4EF7-B444-49EB39BBFA93}">
+													<ClipList>
+														<MusicClip Name="Pantocrator_M_InGame_Lead_120_4-4" ID="{252231D1-DBDF-42D4-A7DA-5754D1CA61B7}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="96000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Pantocrator_M_InGame_Lead_120_4-4" ID="{8393293E-6970-4A65-AAAF-A071C3F7FEA7}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{E38A43CA-264C-42E0-AC26-93A005C232BA}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>96</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{A3DF960A-FE45-4589-A446-9208EE394A07}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>41.79981</XPos>
+																				<YPos>-0.13599</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>57.45726</XPos>
+																				<YPos>-1.07593</YPos>
+																				<Flags>0</Flags>
+																				<SegmentShape>Log2</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>72.69532</XPos>
+																				<YPos>-0.13599</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>96</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Pantocrator_M_InGame_Trumpet_120_4-4" ID="{A793CB91-01B6-47C8-A7FA-74B8EF5EB216}" ShortID="660809580">
+											<PropertyList>
+												<Property Name="MusicTrackType" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-1</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5507DBF5-F8C3-426E-A994-4F765F93A758}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pantocrator_M_InGame_Trumpet_120_4-4" ID="{0B93428E-5332-461A-B0A1-45E91A44768E}">
+													<Language>English(US)</Language>
+													<AudioFile>Music\Pantocrator_M_InGame_Trumpet_120_4-4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="866627371"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{437DAB4B-0A75-433E-99DD-FDC0D8F8AF99}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{F64C537D-CED2-4025-B4B6-87EC40D517A5}">
+													<ClipList>
+														<MusicClip Name="Pantocrator_M_InGame_Trumpet_120_4-4" ID="{4704B839-6091-4C74-8F28-EE941EB033EE}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="96000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Pantocrator_M_InGame_Trumpet_120_4-4" ID="{0B93428E-5332-461A-B0A1-45E91A44768E}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{A739F89F-B96C-4F82-A7EC-826F677764F3}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>24.60457</XPos>
+																				<YPos>19.22204</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>96</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{8CEBFBC3-E98E-4516-8C76-DE7B9B3A3D85}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>38.02524</XPos>
+																				<YPos>-0.34405</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>49.06934</XPos>
+																				<YPos>-1.38688</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>96</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{B83F42DC-C7A9-484D-BF9E-FDAA3792313D}">
+													<ClipList>
+														<MusicClip Name="Pantocrator_M_InGame_Trumpet_120_4-4" ID="{E72528E4-B212-44D1-8957-22A5221B3BD5}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="96000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Pantocrator_M_InGame_Trumpet_120_4-4" ID="{0B93428E-5332-461A-B0A1-45E91A44768E}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{F4392D2F-D991-444B-BBBD-A6202A778C96}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>11.0441</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>13.56047</XPos>
+																				<YPos>15.3385</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>24.88417</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>49.48874</XPos>
+																				<YPos>22.3289</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>55.63988</XPos>
+																				<YPos>3.68783</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>64.44719</XPos>
+																				<YPos>9.1248</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>96</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{EF69A37F-A8F4-4907-BBB9-7D20E289F646}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>31.4547</XPos>
+																				<YPos>-0.13599</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>47.95095</XPos>
+																				<YPos>-0.84982</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>60.53283</XPos>
+																				<YPos>-0.34405</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>70.73814</XPos>
+																				<YPos>-1.30809</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>96</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{6C25874A-D46D-4738-9403-390EDDC79C42}"/>
+										<MusicCue Name="Exit Cue" ID="{1E81EF1C-0CC7-438A-AD17-07789153A17A}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="96000"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{2E0A73AE-C6C5-4EEF-84C5-D94B05989948}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{6AF18E86-03F4-48FA-973D-C520EE8A6A2C}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{BCCF45F6-953D-4806-8E0D-8DDCF864BC93}" ShortID="333679606">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{E2F32F67-C1EF-4D84-A4AF-AF3C1D3F7BB4}" ShortID="62481945">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Music_InGame" ID="{3CB8B82C-F8C4-498F-9A19-5D7C90A0877B}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="Music_Death" ID="{B9773796-7D4C-4F70-A00D-C86EECFD4D5C}" ShortID="582679877">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB069747-0B79-4019-8316-038FDCC79110}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5507DBF5-F8C3-426E-A994-4F765F93A758}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Pantocrator_Music_Death" ID="{52D93447-8F24-4B7E-B640-7978FA8573DF}" ShortID="486900475">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="10500.2083333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB069747-0B79-4019-8316-038FDCC79110}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5507DBF5-F8C3-426E-A994-4F765F93A758}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Pantocrator_M_Death_C_120_4-4" ID="{DFF3D830-BFB1-4C7A-9369-1988E1FD4B1B}" ShortID="864893214">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5507DBF5-F8C3-426E-A994-4F765F93A758}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pantocrator_M_Death_C_120_4-4" ID="{06A09B65-D204-44FB-979C-D4AFE0C49EA1}">
+													<Language>English(US)</Language>
+													<AudioFile>Pantocrator_M_Death_C_120_4-4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="675362644"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{E68550A3-615A-43AA-9F34-25E7BBD28B4B}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{E12A52B6-05B7-42ED-82EA-883B52F09F86}">
+													<ClipList>
+														<MusicClip Name="Pantocrator_M_Death_C_120_4-4" ID="{CE7A9721-D151-4D88-ADCD-7A519C978446}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="10500.2083333333"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Pantocrator_M_Death_C_120_4-4" ID="{06A09B65-D204-44FB-979C-D4AFE0C49EA1}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{DB415B44-0F10-4CEB-A50C-910E12D4879E}"/>
+										<MusicCue Name="Exit Cue" ID="{823ED575-96BB-4B5D-B7EC-3C357E49F73D}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="10000"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{CF9EE140-0068-43C4-B708-29ED02AC5470}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{0F7607C5-3AF6-4ABF-ACFC-ACB38C8B1B58}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{4E998BF2-455B-42B9-AD03-4879FB181441}" ShortID="514130154">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{76E930E7-F25A-4309-8542-05461DCAA6CB}" ShortID="488697193">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Pantocrator_Music_Death" ID="{52D93447-8F24-4B7E-B640-7978FA8573DF}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="Music_Menu" ID="{F0D31728-7BDD-487F-A3E8-3CD1857F91B8}" ShortID="435844954">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB069747-0B79-4019-8316-038FDCC79110}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5507DBF5-F8C3-426E-A994-4F765F93A758}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Pantocrator_Music_Menu" ID="{892B8E08-4A84-4AF4-A3DD-20428E72DFCD}" ShortID="437937913">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="60000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB069747-0B79-4019-8316-038FDCC79110}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5507DBF5-F8C3-426E-A994-4F765F93A758}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Pantocrator_M_Menu_120_4-4" ID="{BAB1E06E-AED2-4261-8C1C-E18481A42535}" ShortID="541913452">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5507DBF5-F8C3-426E-A994-4F765F93A758}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pantocrator_M_Menu_120_4-4" ID="{2252EE07-E1D0-4CD2-A5AC-B86622977FA0}">
+													<Language>English(US)</Language>
+													<AudioFile>Pantocrator_M_Menu_120_4-4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="228950394"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{7FB7D7BB-9E63-4438-B979-C8305089CDBF}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{99C06153-0D7F-4494-825D-A87BD502966E}">
+													<ClipList>
+														<MusicClip Name="Pantocrator_M_Menu_120_4-4" ID="{5108957D-0DD1-459B-BD48-343E514D9EAD}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="60000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Pantocrator_M_Menu_120_4-4" ID="{2252EE07-E1D0-4CD2-A5AC-B86622977FA0}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{5F9C86E7-C7F3-484E-88F2-206CE5469B3D}"/>
+										<MusicCue Name="Exit Cue" ID="{72D474DF-7B40-4C1A-8D7F-7967A56CD8E6}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="60000"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{E982C956-8133-48BB-9039-D4DC87AC83F1}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{87FEB420-0DDC-4B69-A49D-E1276C2F53F5}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{2AFE147E-595B-40B1-BE41-1933068788CC}" ShortID="41607683">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{C95C56DD-6CCA-4F38-B4B4-265EFB09887D}" ShortID="319244726">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Pantocrator_Music_Menu" ID="{892B8E08-4A84-4AF4-A3DD-20428E72DFCD}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="State" ID="{CBD555B2-5F1F-4FC1-B1FF-27B07B113B71}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Alive" ID="{B6376BE6-222A-4642-AD68-2B62BA18492D}"/>
+								<CustomState Name="" ID="{18370CDA-08A8-4C59-A76D-DE09AD82A564}" ShortID="515288932"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Dead" ID="{5EA294BF-5314-4E53-9F7A-8CC592878757}"/>
+								<CustomState Name="" ID="{E85313DD-2997-45D5-833E-F0418E8AD7BE}" ShortID="45094664">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16" Value="-21"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{210DE5D2-5DA8-4431-9590-C984C137EFA3}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{B6DF875D-1342-401B-8A93-DD1F34EF8DF8}">
+									<TransitionInfo/>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{C0D69881-2177-401D-A2D5-C1F390ED4AAC}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Music_In_Game" ID="{A560869F-E5FF-49CF-A707-20F39C34E131}" WorkUnitID="{9F3346F6-5A9B-428A-BAFD-D7DDAAAD54A3}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="Music_Menu" ID="{F0D31728-7BDD-487F-A3E8-3CD1857F91B8}" WorkUnitID="{9F3346F6-5A9B-428A-BAFD-D7DDAAAD54A3}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{A0C716C3-028E-40BA-9B6C-DECF9ABB3945}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="3"/>
+													<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+										<DestinationFadeIn>
+											<MusicFade Name="Destination Fade-in" ID="{34C75AC8-1932-45F3-8F56-5FB59F22487F}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="5"/>
+													<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+												</PropertyList>
+											</MusicFade>
+										</DestinationFadeIn>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{5D843BEF-1778-47F1-AF55-DB2CE2D95B88}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Music_Menu" ID="{F0D31728-7BDD-487F-A3E8-3CD1857F91B8}" WorkUnitID="{9F3346F6-5A9B-428A-BAFD-D7DDAAAD54A3}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="Music_In_Game" ID="{A560869F-E5FF-49CF-A707-20F39C34E131}" WorkUnitID="{9F3346F6-5A9B-428A-BAFD-D7DDAAAD54A3}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{DE1731BB-09F9-4448-BD31-B902CA42984A}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="3"/>
+													<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+										<DestinationFadeIn>
+											<MusicFade Name="Destination Fade-in" ID="{1BC48709-BC6E-45E8-9D60-61ACC663A1E2}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="3"/>
+													<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+												</PropertyList>
+											</MusicFade>
+										</DestinationFadeIn>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{1AE8176B-66CB-4088-9515-FDD43D3E600D}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Music_Death" ID="{B9773796-7D4C-4F70-A00D-C86EECFD4D5C}" WorkUnitID="{9F3346F6-5A9B-428A-BAFD-D7DDAAAD54A3}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="Music_In_Game" ID="{A560869F-E5FF-49CF-A707-20F39C34E131}" WorkUnitID="{9F3346F6-5A9B-428A-BAFD-D7DDAAAD54A3}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{2C5D65DA-AB00-4E30-99DD-B3C24879C8FF}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="3"/>
+													<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+										<DestinationFadeIn>
+											<MusicFade Name="Destination Fade-in" ID="{7FA54FDD-7D70-48E8-B046-5C7848A79CDA}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="3"/>
+													<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+												</PropertyList>
+											</MusicFade>
+										</DestinationFadeIn>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{2DB09484-3C57-4755-82FA-D21F2ACF00F3}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Music_Menu" ID="{F0D31728-7BDD-487F-A3E8-3CD1857F91B8}" WorkUnitID="{9F3346F6-5A9B-428A-BAFD-D7DDAAAD54A3}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="Music_Death" ID="{B9773796-7D4C-4F70-A00D-C86EECFD4D5C}" WorkUnitID="{9F3346F6-5A9B-428A-BAFD-D7DDAAAD54A3}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{3E0FB522-BBFE-4209-8670-F78FD120E009}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="3"/>
+													<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+										<DestinationFadeIn>
+											<MusicFade Name="Destination Fade-in" ID="{C004BD7C-12C8-4444-90F3-C829EB8385C0}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="3"/>
+													<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+												</PropertyList>
+											</MusicFade>
+										</DestinationFadeIn>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{EA09B082-EC52-4C91-B89F-E05B50CBFB2C}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Music_In_Game" ID="{A560869F-E5FF-49CF-A707-20F39C34E131}" WorkUnitID="{9F3346F6-5A9B-428A-BAFD-D7DDAAAD54A3}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="Music_Death" ID="{B9773796-7D4C-4F70-A00D-C86EECFD4D5C}" WorkUnitID="{9F3346F6-5A9B-428A-BAFD-D7DDAAAD54A3}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{CDD814C7-75AB-4EEC-90AF-CD6991286279}">
+												<PropertyList>
+													<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+										<DestinationFadeIn>
+											<MusicFade Name="Destination Fade-in" ID="{B1144998-49B0-4C20-A3D8-2CCFD8781C67}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="3"/>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</DestinationFadeIn>
+									</TransitionInfo>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ArgumentList>
+						<ArgumentRef Name="State" ID="{CBD555B2-5F1F-4FC1-B1FF-27B07B113B71}"/>
+						<ArgumentRef Name="Music_State" ID="{5F1C8E4B-BCF6-4527-A486-B477348489F0}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="State" ID="{CBD555B2-5F1F-4FC1-B1FF-27B07B113B71}"/>
+								<PathElementRef Name="Music_State" ID="{5F1C8E4B-BCF6-4527-A486-B477348489F0}"/>
+							</Path>
+							<AudioNodeInfo>
+								<NoObject Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Alive" ID="{B6376BE6-222A-4642-AD68-2B62BA18492D}"/>
+								<PathElementRef Name="Music_State" ID="{5F1C8E4B-BCF6-4527-A486-B477348489F0}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Music_In_Game" ID="{A560869F-E5FF-49CF-A707-20F39C34E131}" WorkUnitID="{9F3346F6-5A9B-428A-BAFD-D7DDAAAD54A3}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Dead" ID="{5EA294BF-5314-4E53-9F7A-8CC592878757}"/>
+								<PathElementRef Name="Music_State" ID="{5F1C8E4B-BCF6-4527-A486-B477348489F0}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Music_Death" ID="{B9773796-7D4C-4F70-A00D-C86EECFD4D5C}" WorkUnitID="{9F3346F6-5A9B-428A-BAFD-D7DDAAAD54A3}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Alive" ID="{B6376BE6-222A-4642-AD68-2B62BA18492D}"/>
+								<PathElementRef Name="Menu" ID="{0E94EBDF-5D93-426E-ACC3-5082A1E781EB}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Music_Menu" ID="{F0D31728-7BDD-487F-A3E8-3CD1857F91B8}" WorkUnitID="{9F3346F6-5A9B-428A-BAFD-D7DDAAAD54A3}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Dead" ID="{5EA294BF-5314-4E53-9F7A-8CC592878757}"/>
+								<PathElementRef Name="Menu" ID="{0E94EBDF-5D93-426E-ACC3-5082A1E781EB}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Music_Menu" ID="{F0D31728-7BDD-487F-A3E8-3CD1857F91B8}" WorkUnitID="{9F3346F6-5A9B-428A-BAFD-D7DDAAAD54A3}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</MusicSwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

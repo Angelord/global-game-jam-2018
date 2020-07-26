@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0FC61EA5-C7ED-4A2B-BCF3-001D75E35E36}" SchemaVersion="97">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{0FC61EA5-C7ED-4A2B-BCF3-001D75E35E36}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Pantocrator" ID="{E7060F1C-790A-4948-B67D-DD1157D1880F}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

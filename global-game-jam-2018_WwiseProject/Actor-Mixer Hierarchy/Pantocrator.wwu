@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CCD644CD-1518-4CC7-9630-A148070B3C5E}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Pantocrator" ID="{CCD644CD-1518-4CC7-9630-A148070B3C5E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Pantocrator_SFX_B_Circle" ID="{49DAB8F4-5AB4-4202-9598-A331BED66691}" ShortID="562844839">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{DB8703A7-02E4-4ADB-A8F5-BE22C0A3DDEC}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="100"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB069747-0B79-4019-8316-038FDCC79110}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5507DBF5-F8C3-426E-A994-4F765F93A758}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Pantocrator_SFX_B_Circle" ID="{7FF8FBDB-6135-4C81-A06A-2E10BAFCB625}">
+							<Language>SFX</Language>
+							<AudioFile>Pantocrator_SFX_B_Circle.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="775499118"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Pantocrator_SFX_B_Circle" ID="{7FF8FBDB-6135-4C81-A06A-2E10BAFCB625}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Pantocrator_SFX_Button_Click" ID="{47409774-8E02-4B8A-B5FD-32C05B3A43FD}" ShortID="178916242">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{C5A9A30E-3CDF-40EB-8819-4DAB91993827}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="100"/>
+											<Property Name="Min" Type="Real64" Value="-100"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB069747-0B79-4019-8316-038FDCC79110}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5507DBF5-F8C3-426E-A994-4F765F93A758}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Pantocrator_SFX_Button_Click" ID="{4FF37F04-EB0C-4818-ADD3-81A7387EC5FA}">
+							<Language>SFX</Language>
+							<AudioFile>Pantocrator_SFX_Button_Click.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="17291228"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Pantocrator_SFX_Button_Click" ID="{4FF37F04-EB0C-4818-ADD3-81A7387EC5FA}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Pantocrator_SFX_Death_Spider" ID="{F8089673-177C-410E-A8A7-44B093DDF05A}" ShortID="59054345">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{57A8CB48-4C0B-48BB-8F43-49B98A6006F3}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="200"/>
+											<Property Name="Min" Type="Real64" Value="-100"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB069747-0B79-4019-8316-038FDCC79110}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5507DBF5-F8C3-426E-A994-4F765F93A758}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Pantocrator_SFX_Death_Spider" ID="{ABD934E7-BD33-40F6-92FF-9441B4D23609}">
+							<Language>SFX</Language>
+							<AudioFile>Pantocrator_SFX_Death_Spider.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="203681362"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Pantocrator_SFX_Death_Spider" ID="{ABD934E7-BD33-40F6-92FF-9441B4D23609}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Pantocrator_SFX_Laser_Worm" ID="{028F138E-71B0-49D4-AEBB-051BEE2922C3}" ShortID="409224645">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{8C977906-3FCE-4587-95DA-83BAAF3163BE}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="200"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB069747-0B79-4019-8316-038FDCC79110}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5507DBF5-F8C3-426E-A994-4F765F93A758}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Pantocrator_SFX_Laser_Worm" ID="{312F9855-BC6B-4970-AC1C-58F78C2DD2CA}">
+							<Language>SFX</Language>
+							<AudioFile>Pantocrator_SFX_Laser_Worm.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="63630884"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Pantocrator_SFX_Laser_Worm" ID="{312F9855-BC6B-4970-AC1C-58F78C2DD2CA}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="Pantocrator_Worm_Emerge" ID="{1E3C0EA4-97A8-43EC-835D-63BF2C9A1114}" ShortID="631602241">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{ABCB9CFD-4421-4C5F-9111-6C2821B0C60C}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB069747-0B79-4019-8316-038FDCC79110}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5507DBF5-F8C3-426E-A994-4F765F93A758}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Pantocrator_SFX_Worm_Growl_01" ID="{6E1448DA-6527-4BB1-94BF-7323A768380B}" ShortID="217002483">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB069747-0B79-4019-8316-038FDCC79110}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5507DBF5-F8C3-426E-A994-4F765F93A758}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pantocrator_SFX_Worm_Growl_01" ID="{5242E96D-EFE3-4E60-B6F5-A4513D68ED22}">
+									<Language>SFX</Language>
+									<AudioFile>Pantocrator_SFX_Worm_Growl_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="240461814"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pantocrator_SFX_Worm_Growl_01" ID="{5242E96D-EFE3-4E60-B6F5-A4513D68ED22}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Pantocrator_SFX_Worm_Growl_02" ID="{9A788CD4-4029-4F9E-B0D0-864696FC2BF6}" ShortID="762649722">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB069747-0B79-4019-8316-038FDCC79110}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5507DBF5-F8C3-426E-A994-4F765F93A758}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pantocrator_SFX_Worm_Growl_02" ID="{8CA9BDC1-4273-49EA-8C3F-6980CC1107A4}">
+									<Language>SFX</Language>
+									<AudioFile>Pantocrator_SFX_Worm_Growl_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="994342709"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pantocrator_SFX_Worm_Growl_02" ID="{8CA9BDC1-4273-49EA-8C3F-6980CC1107A4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Pantocrator_SFX_Worm_Growl_03" ID="{2918AB34-5543-4870-BAFB-A81961A91D0A}" ShortID="645483795">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB069747-0B79-4019-8316-038FDCC79110}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5507DBF5-F8C3-426E-A994-4F765F93A758}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pantocrator_SFX_Worm_Growl_03" ID="{6395CE8E-4DC9-4BDE-95F1-BC3629B36528}">
+									<Language>SFX</Language>
+									<AudioFile>Pantocrator_SFX_Worm_Growl_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="280896302"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pantocrator_SFX_Worm_Growl_03" ID="{6395CE8E-4DC9-4BDE-95F1-BC3629B36528}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Pantocrator_Sword_Ground" ID="{6FB62ACD-C403-4F90-B3F3-B63FD6DA6090}" ShortID="974421567">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{07B5DFD5-1D93-495B-96F2-05A86591E38E}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="300"/>
+											<Property Name="Min" Type="Real64" Value="-200"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB069747-0B79-4019-8316-038FDCC79110}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5507DBF5-F8C3-426E-A994-4F765F93A758}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Pantocrator_SFX_Sword_Ground_01" ID="{7F5CE6A4-1100-4B52-9080-509E27B3303E}" ShortID="104258078">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB069747-0B79-4019-8316-038FDCC79110}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5507DBF5-F8C3-426E-A994-4F765F93A758}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pantocrator_SFX_Sword_Ground_01" ID="{8AA11304-B2B1-46FC-86B0-B66CEEA8376C}">
+									<Language>SFX</Language>
+									<AudioFile>Pantocrator_SFX_Sword_Ground_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="860715772"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pantocrator_SFX_Sword_Ground_01" ID="{8AA11304-B2B1-46FC-86B0-B66CEEA8376C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Pantocrator_SFX_Sword_Ground_02" ID="{C8B646DD-BD99-4D3C-AB56-55F8003915EA}" ShortID="690333424">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB069747-0B79-4019-8316-038FDCC79110}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5507DBF5-F8C3-426E-A994-4F765F93A758}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pantocrator_SFX_Sword_Ground_02" ID="{37DFEBFB-637D-4402-BCB1-6C9546DD997F}">
+									<Language>SFX</Language>
+									<AudioFile>Pantocrator_SFX_Sword_Ground_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="276225286"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pantocrator_SFX_Sword_Ground_02" ID="{37DFEBFB-637D-4402-BCB1-6C9546DD997F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Pantocrator_Sword_Burst" ID="{D7EF951D-1015-46DD-83C0-C2E7B41EEC1D}" ShortID="340685895">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{F3D81DB9-B297-44F5-A311-5022A3BE74BF}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="400"/>
+											<Property Name="Min" Type="Real64" Value="-200"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB069747-0B79-4019-8316-038FDCC79110}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5507DBF5-F8C3-426E-A994-4F765F93A758}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Pantocrator_SFX_Sword_Burst_01" ID="{010963B6-5A38-4A92-81CD-68411F7FA2B3}" ShortID="1012763015">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB069747-0B79-4019-8316-038FDCC79110}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5507DBF5-F8C3-426E-A994-4F765F93A758}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pantocrator_SFX_Sword_Burst_01" ID="{9DEFA760-B3C3-4C1B-8EBF-235149823557}">
+									<Language>SFX</Language>
+									<AudioFile>Pantocrator_SFX_Sword_Burst_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="638343827"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pantocrator_SFX_Sword_Burst_01" ID="{9DEFA760-B3C3-4C1B-8EBF-235149823557}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Pantocrator_SFX_Sword_Burst_02" ID="{41314407-1033-45AB-A0F3-48F526D98860}" ShortID="600281218">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB069747-0B79-4019-8316-038FDCC79110}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5507DBF5-F8C3-426E-A994-4F765F93A758}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pantocrator_SFX_Sword_Burst_02" ID="{C99D6089-3300-4378-8CA1-2587ABD46E9D}">
+									<Language>SFX</Language>
+									<AudioFile>Pantocrator_SFX_Sword_Burst_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="532348225"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pantocrator_SFX_Sword_Burst_02" ID="{C99D6089-3300-4378-8CA1-2587ABD46E9D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Pantocrator_Death_Worm" ID="{CFEEA91E-3905-42BC-AEAB-8A8D23AB60F1}" ShortID="301605882">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{677B9DB6-AEAB-448F-94CE-3FB6CC26718B}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="200"/>
+											<Property Name="Min" Type="Real64" Value="-100"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB069747-0B79-4019-8316-038FDCC79110}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5507DBF5-F8C3-426E-A994-4F765F93A758}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Pantocrator_SFX_Death_Worm_01" ID="{D7759F4D-C3D9-4B6E-BDAC-77D080C40D1C}" ShortID="16440950">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB069747-0B79-4019-8316-038FDCC79110}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5507DBF5-F8C3-426E-A994-4F765F93A758}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pantocrator_SFX_Death_Worm_01" ID="{6583AB20-6854-432F-97E6-5136D1CB0FAA}">
+									<Language>SFX</Language>
+									<AudioFile>Pantocrator_SFX_Death_Worm_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="584171049"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pantocrator_SFX_Death_Worm_01" ID="{6583AB20-6854-432F-97E6-5136D1CB0FAA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Pantocrator_SFX_Death_Worm_02" ID="{432910B8-6243-4358-97B8-88DDEEB6D512}" ShortID="422642792">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB069747-0B79-4019-8316-038FDCC79110}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5507DBF5-F8C3-426E-A994-4F765F93A758}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pantocrator_SFX_Death_Worm_02" ID="{C906D20D-DA37-4B6E-8BF7-204622B990A9}">
+									<Language>SFX</Language>
+									<AudioFile>Pantocrator_SFX_Death_Worm_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="144948471"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pantocrator_SFX_Death_Worm_02" ID="{C906D20D-DA37-4B6E-8BF7-204622B990A9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Pantocrator_Death_Scorpion" ID="{4582F27A-FCC8-47E9-B4EA-E0F651791AC6}" ShortID="675731081">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{A4D6EEE0-B4F8-402B-91CF-63A409B69FC7}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="100"/>
+											<Property Name="Min" Type="Real64" Value="-50"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB069747-0B79-4019-8316-038FDCC79110}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5507DBF5-F8C3-426E-A994-4F765F93A758}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Pantocrator_SFX_Death_Scorpion_01" ID="{7BDB2B5C-9278-4D6B-928D-753389A5DF69}" ShortID="496066788">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB069747-0B79-4019-8316-038FDCC79110}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5507DBF5-F8C3-426E-A994-4F765F93A758}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pantocrator_SFX_Death_Scorpion_01" ID="{C89DE06F-381A-40BB-9E1A-FB26EAA196FE}">
+									<Language>SFX</Language>
+									<AudioFile>Pantocrator_SFX_Death_Scorpion_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="506073471"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pantocrator_SFX_Death_Scorpion_01" ID="{C89DE06F-381A-40BB-9E1A-FB26EAA196FE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Pantocrator_SFX_Death_Scorpion_02" ID="{12A84410-ECAB-4F80-A09B-09E31618004F}" ShortID="938631391">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB069747-0B79-4019-8316-038FDCC79110}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5507DBF5-F8C3-426E-A994-4F765F93A758}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pantocrator_SFX_Death_Scorpion_02" ID="{5CB88D53-F4CA-4050-BBAD-6AA5B9616809}">
+									<Language>SFX</Language>
+									<AudioFile>Pantocrator_SFX_Death_Scorpion_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="878655166"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pantocrator_SFX_Death_Scorpion_02" ID="{5CB88D53-F4CA-4050-BBAD-6AA5B9616809}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Pantocrator_SFX_Death_Scorpion_03" ID="{8965795C-21AF-48AA-B2EC-CE00D1FCD9FA}" ShortID="595828052">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB069747-0B79-4019-8316-038FDCC79110}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5507DBF5-F8C3-426E-A994-4F765F93A758}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pantocrator_SFX_Death_Scorpion_03" ID="{DF29A88C-FC37-43AB-9C61-3B52CC787307}">
+									<Language>SFX</Language>
+									<AudioFile>Pantocrator_SFX_Death_Scorpion_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="952324145"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pantocrator_SFX_Death_Scorpion_03" ID="{DF29A88C-FC37-43AB-9C61-3B52CC787307}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Pantocrator_Button_Hover" ID="{81DCD74B-59E9-450C-8931-08FC272CF0F3}" ShortID="234961245">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{D65B18B5-BAB3-4940-83F1-638D26292EC3}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="50"/>
+											<Property Name="Min" Type="Real64" Value="-50"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB069747-0B79-4019-8316-038FDCC79110}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5507DBF5-F8C3-426E-A994-4F765F93A758}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Pantocrator_SFX_Button_Hover_01" ID="{BAD6A475-F8DF-476D-9441-D8DCBBA9F38B}" ShortID="769965338">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB069747-0B79-4019-8316-038FDCC79110}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5507DBF5-F8C3-426E-A994-4F765F93A758}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pantocrator_SFX_Button_Hover_01" ID="{FC5BDA28-CFEA-4715-B2F7-7E35911B257B}">
+									<Language>SFX</Language>
+									<AudioFile>Pantocrator_SFX_Button_Hover_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="649998283"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pantocrator_SFX_Button_Hover_01" ID="{FC5BDA28-CFEA-4715-B2F7-7E35911B257B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Pantocrator_SFX_Button_Hover_02" ID="{FC53AD2F-092F-47AE-A165-DC6DCB660D0A}" ShortID="501416369">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB069747-0B79-4019-8316-038FDCC79110}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5507DBF5-F8C3-426E-A994-4F765F93A758}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pantocrator_SFX_Button_Hover_02" ID="{1780971A-C198-409E-A4EB-C61A45C2B129}">
+									<Language>SFX</Language>
+									<AudioFile>Pantocrator_SFX_Button_Hover_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="438107686"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pantocrator_SFX_Button_Hover_02" ID="{1780971A-C198-409E-A4EB-C61A45C2B129}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Pantocrator_Health_Up" ID="{99C39AC0-DF65-414A-A4E1-0BFD498A9138}" ShortID="157062143">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{7B637A2D-2824-4412-A344-A6AFBFC0BE78}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="50"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB069747-0B79-4019-8316-038FDCC79110}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5507DBF5-F8C3-426E-A994-4F765F93A758}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Pantocrator_SFX_Health_Up_01" ID="{47A4E182-ADE6-4ECB-8ED3-8EC9265397B6}" ShortID="318797041">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB069747-0B79-4019-8316-038FDCC79110}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5507DBF5-F8C3-426E-A994-4F765F93A758}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pantocrator_SFX_Health_Up_01" ID="{3DE17C17-2E1D-436E-AAD5-65F0DD581392}">
+									<Language>SFX</Language>
+									<AudioFile>Pantocrator_SFX_Health_Up_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="874664392"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pantocrator_SFX_Health_Up_01" ID="{3DE17C17-2E1D-436E-AAD5-65F0DD581392}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Pantocrator_SFX_Health_Up_02" ID="{F4DB71F0-862A-4FE7-BA15-7C81D8CE0AE3}" ShortID="272088042">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB069747-0B79-4019-8316-038FDCC79110}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5507DBF5-F8C3-426E-A994-4F765F93A758}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pantocrator_SFX_Health_Up_02" ID="{EBFD84D6-DFF0-4DD2-87E6-A9D346A643A6}">
+									<Language>SFX</Language>
+									<AudioFile>Pantocrator_SFX_Health_Up_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="722197242"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pantocrator_SFX_Health_Up_02" ID="{EBFD84D6-DFF0-4DD2-87E6-A9D346A643A6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6CB1B76D-E89F-4299-B5C0-6ECAD8932627}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Pantocrator_SFX" ID="{6CB1B76D-E89F-4299-B5C0-6ECAD8932627}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Button_Hover" ID="{432FFCA8-A775-4257-8EAB-C0CBD41AA25D}">
+					<ChildrenList>
+						<Action Name="" ID="{68854652-6A6D-464F-BF09-80D0D646BB8B}" ShortID="273845052">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pantocrator_Button_Hover" ID="{81DCD74B-59E9-450C-8931-08FC272CF0F3}" WorkUnitID="{CCD644CD-1518-4CC7-9630-A148070B3C5E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Button_Click" ID="{2F5B6295-AEFD-4C88-B9D5-6C9DC6EEAF5C}">
+					<ChildrenList>
+						<Action Name="" ID="{5851F6CB-D79B-4383-84C0-D6E32DCFFF6E}" ShortID="868190740">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pantocrator_SFX_Button_Click" ID="{47409774-8E02-4B8A-B5FD-32C05B3A43FD}" WorkUnitID="{CCD644CD-1518-4CC7-9630-A148070B3C5E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Death_Scorpion" ID="{EB1E4235-EBFF-4EAE-A24E-3DCBE6D2027D}">
+					<ChildrenList>
+						<Action Name="" ID="{61ECF7EC-58F0-467C-A6BC-C7C81ECC9F20}" ShortID="928400195">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pantocrator_Death_Scorpion" ID="{4582F27A-FCC8-47E9-B4EA-E0F651791AC6}" WorkUnitID="{CCD644CD-1518-4CC7-9630-A148070B3C5E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Death_Worm" ID="{C64FDCB4-FDA1-45B8-AACF-03C5B1D2A3FE}">
+					<ChildrenList>
+						<Action Name="" ID="{6B50EA17-E39B-4F6B-A3CC-674E6CF23756}" ShortID="525591163">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pantocrator_Death_Worm" ID="{CFEEA91E-3905-42BC-AEAB-8A8D23AB60F1}" WorkUnitID="{CCD644CD-1518-4CC7-9630-A148070B3C5E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Death_Spider" ID="{CA877B2D-DE60-48DA-A5FD-BC9700BD2ADE}">
+					<ChildrenList>
+						<Action Name="" ID="{83CCC318-40ED-43F2-B817-A70AF538E235}" ShortID="734010985">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pantocrator_SFX_Death_Spider" ID="{F8089673-177C-410E-A8A7-44B093DDF05A}" WorkUnitID="{CCD644CD-1518-4CC7-9630-A148070B3C5E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Health_Up" ID="{19410439-43D7-4E78-9A3A-7B403D9C3D52}">
+					<ChildrenList>
+						<Action Name="" ID="{1BAB945C-6695-4D0E-B598-64824E2ACC20}" ShortID="963571587">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pantocrator_Health_Up" ID="{99C39AC0-DF65-414A-A4E1-0BFD498A9138}" WorkUnitID="{CCD644CD-1518-4CC7-9630-A148070B3C5E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Sword_Burst" ID="{18F29AE6-09E8-4008-96AE-908F3AA55D4C}">
+					<ChildrenList>
+						<Action Name="" ID="{16556908-F641-4E3F-916A-63E540A162D6}" ShortID="26619210">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pantocrator_Sword_Burst" ID="{D7EF951D-1015-46DD-83C0-C2E7B41EEC1D}" WorkUnitID="{CCD644CD-1518-4CC7-9630-A148070B3C5E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Sword_Ground" ID="{5DCE0F3A-E0EF-411E-A3BD-3F880EC96E2A}">
+					<ChildrenList>
+						<Action Name="" ID="{35CD9AA4-B527-4FA4-8DB6-6768614E9A07}" ShortID="959714224">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pantocrator_Sword_Ground" ID="{6FB62ACD-C403-4F90-B3F3-B63FD6DA6090}" WorkUnitID="{CCD644CD-1518-4CC7-9630-A148070B3C5E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Worm_Emerge" ID="{CB8566CE-567F-4219-B822-96A7A9C16857}">
+					<ChildrenList>
+						<Action Name="" ID="{89CED69D-213D-42FB-8C58-7FC283590DDB}" ShortID="188762562">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pantocrator_Worm_Emerge" ID="{1E3C0EA4-97A8-43EC-835D-63BF2C9A1114}" WorkUnitID="{CCD644CD-1518-4CC7-9630-A148070B3C5E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="B_Circle" ID="{712EAF97-B52A-4D50-80E2-777679C9613B}">
+					<ChildrenList>
+						<Action Name="" ID="{D7646EDF-721A-41D8-9AF8-1D1644AB96EE}" ShortID="530407999">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pantocrator_SFX_B_Circle" ID="{49DAB8F4-5AB4-4202-9598-A331BED66691}" WorkUnitID="{CCD644CD-1518-4CC7-9630-A148070B3C5E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Laser_Worm" ID="{C60A7EE3-1EB9-4534-AB2E-97410D5D3C8F}">
+					<ChildrenList>
+						<Action Name="" ID="{2287C0FB-FF58-4A5B-95B7-B3BD256B5D0C}" ShortID="735508586">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pantocrator_SFX_Laser_Worm" ID="{028F138E-71B0-49D4-AEBB-051BEE2922C3}" WorkUnitID="{CCD644CD-1518-4CC7-9630-A148070B3C5E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

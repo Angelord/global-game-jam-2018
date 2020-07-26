@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{12ECA180-F463-4FA3-B689-E7BDA823D149}" SchemaVersion="97">
+	<SoundBanks>
+		<WorkUnit Name="Pantocrator" ID="{12ECA180-F463-4FA3-B689-E7BDA823D149}" PersistMode="Standalone"/>
+	</SoundBanks>
+</WwiseDocument>
