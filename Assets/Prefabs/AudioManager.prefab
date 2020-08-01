@@ -43,6 +43,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9860ab3163c04860bbd6ee6850fa6281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayMusicEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 8c340f84130fecd42b0f5441e1a682db,
+      type: 2}
+  GameplayState:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: cd6f737b1bc7c474ea89a180c364ef2b,
+      type: 2}
+  MenuState:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: bca4c5671bcd9624a9beadc534b6fbb1,
+      type: 2}
+  PlayerAliveState:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 7962fd6934d55024ca60681aa222d9ce,
+      type: 2}
+  PlayerDeadState:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 557bd13c7e7a3e240a7df269233bafb0,
+      type: 2}
   BtnHoverEvent:
     idInternal: 0
     valueGuidInternal: 

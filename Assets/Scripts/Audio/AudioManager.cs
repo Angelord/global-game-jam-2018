@@ -3,28 +3,34 @@
 namespace Audio {
     public class AudioManager : MonoBehaviour {
 
-        [Header("GUI")]
+        [Header("Music")] 
+        
+        public AK.Wwise.Event PlayMusicEvent;
+        
+        public AK.Wwise.State GameplayState;
 
-        public AK.Wwise.Event BtnHoverEvent;
-    
+        public AK.Wwise.State MenuState;
+
+        public AK.Wwise.State PlayerAliveState;
+
+        public AK.Wwise.State PlayerDeadState;
+
+        [Header("GUI")] public AK.Wwise.Event BtnHoverEvent;
+
         public AK.Wwise.Event BtnClickEvent;
 
-        [Header("Player")]
-
-        public AK.Wwise.Event SwordAppearEvent;
+        [Header("Player")] public AK.Wwise.Event SwordAppearEvent;
 
         public AK.Wwise.Event SwordHitEvent;
-        
+
         public AK.Wwise.Event HealEvent;
 
         public AK.Wwise.Event PulseEvent;
 
-        [Header("Enemies")]
-        
-        public AK.Wwise.Event ScorpionDeathEvent;
-        
+        [Header("Enemies")] public AK.Wwise.Event ScorpionDeathEvent;
+
         public AK.Wwise.Event SpiderDeathEvent;
-        
+
         public AK.Wwise.Event CrawlerDeathEvent;
 
         public AK.Wwise.Event CrawlerLaserEvent;
@@ -42,8 +48,24 @@ namespace Audio {
             }
 
             instance = this;
-            
+
+            PlayMusicEvent.Post(gameObject);
+
             DontDestroyOnLoad(this);
+        }
+
+        public void SetMainMenuState() {
+            PlayerAliveState.SetValue();
+            MenuState.SetValue();
+        }
+
+        public void SetGameState() {
+            PlayerAliveState.SetValue();
+            GameplayState.SetValue();
+        }
+
+        public void SetGameOverState() {
+            PlayerDeadState.SetValue();
         }
 
         public void OnButtonHover() { BtnHoverEvent.Post(gameObject); }

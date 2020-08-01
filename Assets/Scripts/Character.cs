@@ -51,6 +51,8 @@ public class Character : MonoBehaviour, IDamageTaker {
         sprite = GetComponent<SpriteRenderer>();
         GetComponent<PhantomTrail>().enabled = false;
 		shake = GameObject.FindGameObjectWithTag ("CameraShaker").GetComponent<PerlinShake> ();
+        
+        AudioManager.Instance.SetGameState();
     }
 
     private void FixedUpdate() {
@@ -216,6 +218,7 @@ public class Character : MonoBehaviour, IDamageTaker {
 		obj.transform.parent = null;
         gameObject.SetActive(false);
         isDead = true;
+        AudioManager.Instance.SetGameOverState();
         CombatManager.GameOver = true;
     }
 
