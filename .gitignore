@@ -18,8 +18,8 @@ ExportedObj/
 *.tmp
 *.user
 *.userprefs
-*.pidb
 *.booproj
+*.pidb
 *.svd
 *.pdb
 
@@ -36,3 +36,15 @@ sysinfo.txt
 
 # Mac shit
 .DS_Store
+
+# Wwise
+/global-game-jam-2019_WwiseProject/Originals/SFX/*.akd
+/global-game-jam-2019_WwiseProject/.cache/
+/global-game-jam-2019_WwiseProject/GeneratedSoundBanks/
+/Assets/WwiseSettings.xml
+/Assets/WwiseSettings.xml.meta
+**/ProjectData/AkWwiseProjectData.asset
+**/Audio/GeneratedSoundBanks/
+
+# Rider stuff
+**/.idea*/
