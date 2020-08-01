@@ -26,6 +26,8 @@ public class MainMenu : MonoBehaviour {
         mainMenuPane.SetActive(false);
         controlsPane.SetActive(false);
         creditsPane.SetActive(false);
+        
+        AudioManager.Instance.SetMainMenuState();
 
         Invoke("EnableMenu", defaultDuration);
     }
@@ -54,8 +56,6 @@ public class MainMenu : MonoBehaviour {
     }
 
     private void EnableMenu() {
-        
-        AudioManager.Instance.SetMainMenuState();
         
         if (!menuEnabled) {
             menuEnabled = true;
