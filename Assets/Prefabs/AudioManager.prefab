@@ -68,6 +68,11 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: e3d2f6835c5755246a4e3ed0ce5b7a1d,
       type: 2}
+  PulseEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 2d126764a7a169949b0d6af86b2ef28c,
+      type: 2}
   ScorpionDeathEvent:
     idInternal: 0
     valueGuidInternal: 
@@ -83,10 +88,11 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: d1e89882643edd84fa10d911c47439bd,
       type: 2}
-  WormLaserEvent:
+  CrawlerLaserEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: bf2f59d2753e9314780a4e5b580c20ed,
+      type: 2}
   BossEmergeEvent:
     idInternal: 0
     valueGuidInternal: 

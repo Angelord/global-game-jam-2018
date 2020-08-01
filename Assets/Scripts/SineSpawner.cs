@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Audio;
 using UnityEngine;
 
 public class SineSpawner : MonoBehaviour {
@@ -29,6 +30,7 @@ public class SineSpawner : MonoBehaviour {
 					bonus_obj.transform.parent = null;
 			}
 			var obj = GameObject.Instantiate (sine, transform);
+			AudioManager.Instance.OnCrawlerLaser();
 			obj.transform.parent = null;
 		}
 

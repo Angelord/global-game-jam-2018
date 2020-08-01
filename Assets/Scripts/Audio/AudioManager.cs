@@ -17,6 +17,8 @@ namespace Audio {
         
         public AK.Wwise.Event HealEvent;
 
+        public AK.Wwise.Event PulseEvent;
+
         [Header("Enemies")]
         
         public AK.Wwise.Event ScorpionDeathEvent;
@@ -25,7 +27,7 @@ namespace Audio {
         
         public AK.Wwise.Event CrawlerDeathEvent;
 
-        public AK.Wwise.Event WormLaserEvent;
+        public AK.Wwise.Event CrawlerLaserEvent;
 
         public AK.Wwise.Event BossEmergeEvent;
 
@@ -52,12 +54,14 @@ namespace Audio {
 
         public void OnSwordHit() { SwordHitEvent.Post(gameObject); }
 
+        public void OnPlayerPulse() { PulseEvent.Post(gameObject); }
+
         public void OnHeal() { HealEvent.Post(gameObject); }
 
-        public void OnBossEmerge() {
-            BossEmergeEvent.Post(gameObject);
-        }
-        
+        public void OnBossEmerge() { BossEmergeEvent.Post(gameObject); }
+
+        public void OnCrawlerLaser() { CrawlerLaserEvent.Post(gameObject); }
+
         public void OnCreatureDeath(Vector2 position, Enemy.CreatureType type) {
 
             if (!CreatureIsVisible(position)) {

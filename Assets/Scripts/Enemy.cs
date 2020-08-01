@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using Audio;
+﻿using Audio;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour , IDamageTaker {

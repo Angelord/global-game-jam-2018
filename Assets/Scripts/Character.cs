@@ -185,7 +185,8 @@ public class Character : MonoBehaviour, IDamageTaker {
                     enemyBody.AddForce(direction * shockWaveMagnitude, ForceMode2D.Force);
                 }
             }
-            SoundManager.instance.PlayPlayerSound(shockWaveClip);
+
+            AudioManager.Instance.OnPlayerPulse();
             finalShockWaveCheck = Time.time;
             GetComponent<PushbackWave>().Display();
         }
