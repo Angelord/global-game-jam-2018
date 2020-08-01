@@ -54,7 +54,7 @@ public class Character : MonoBehaviour, IDamageTaker {
         
         AudioManager.Instance.SetGameState();
     }
-
+    
     private void FixedUpdate() {
         HandleMovement();
     }

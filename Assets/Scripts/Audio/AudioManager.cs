@@ -41,7 +41,7 @@ namespace Audio {
 
         public static AudioManager Instance => instance;
 
-        private void Start() {
+        private void Awake() {
             if (instance != null) {
                 Destroy(gameObject);
                 return;
