@@ -12,20 +12,21 @@ EditorBuildSettings:
     path: Assets/Scenes/WurmWarfare.unity
     guid: 62d2b6997da8d402eb2d9a985cc77027
   - enabled: 0
-    path: Assets/Scenes/WorldMap.unity
+    path: Assets/Scenes/Development Scenes/WorldMap.unity
     guid: 6e0d15366ff536749aa66b2584415fa5
   - enabled: 0
-    path: Assets/Scenes/LevelOne.unity
+    path: Assets/Scenes/Development Scenes/LevelOne.unity
     guid: cdf6602b976df314581563df3d3d2d95
   - enabled: 0
-    path: Assets/Scenes/LevelTwo.unity
+    path: Assets/Scenes/Development Scenes/LevelTwo.unity
     guid: de6d4db9f11dcdc42bf44bdb6e2c96a6
   - enabled: 0
-    path: Assets/Scenes/LevelThree.unity
+    path: Assets/Scenes/Development Scenes/LevelThree.unity
     guid: 7ed317de3e15ebe4da053f48490493ab
   - enabled: 0
-    path: Assets/Scenes/TestScene_2.unity
+    path: Assets/Scenes/Development Scenes/TestScene_2.unity
     guid: 41b2783de2bcd6549a1a3d72f21a13a1
   - enabled: 0
     path: Assets/Scenes/Development Scenes/TestScene_1.unity
     guid: 22984d9f038e240a4bffe21bd0df0f06
+  m_configObjects: {}

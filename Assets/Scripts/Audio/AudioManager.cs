@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace Audio {
     public class AudioManager : MonoBehaviour {
@@ -6,6 +7,10 @@ namespace Audio {
         public AK.Wwise.Event BtnHoverEvent;
     
         public AK.Wwise.Event BtnClickEvent;
+
+        public AK.Wwise.Event SwordLaunchEvent;
+
+        public AK.Wwise.Event SwordHitEvent;
 
         private static AudioManager instance;
 
@@ -28,6 +33,14 @@ namespace Audio {
 
         public void OnButtonPress() {
             BtnClickEvent.Post(gameObject);
+        }
+
+        public void OnSwordLaunch() {
+            SwordLaunchEvent.Post(gameObject);
+        }
+
+        public void OnSwordHit() {
+            SwordHitEvent.Post(gameObject);
         }
     }
 }

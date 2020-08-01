@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Audio;
 using UnityEngine;
 
 public class Sword : MonoBehaviour {
@@ -50,7 +51,21 @@ public class Sword : MonoBehaviour {
 
         if (Vector3.Distance(transform.position, target) < 0.001 && shooting) {
             shooting = false;
+            
             ClipHalf();
+            
+            AudioManager.Instance.OnSwordHit();
+
+            if (killCount == 2) {
+//            SoundManager.instance.PlayAnouncer(doubleKillClip);
+                KillCounter.doubleKills++;
+            } else if (killCount == 3) {
+//            SoundManager.instance.PlayAnouncer(tripleKillClip);
+                KillCounter.tripleKills++;
+            } else if (killCount > 3) {
+//            SoundManager.instance.PlayAnouncer(monsterKillClip);
+                KillCounter.multiKills++;
+            }
         }
     }
 
@@ -82,18 +97,6 @@ public class Sword : MonoBehaviour {
         GetComponent<SpriteRenderer>().sortingLayerName = "Background";
         GetComponent<Animator>().SetTrigger("Stick");
         gameObject.AddComponent<FadeoutObject>();
-
-		// 
-		if (killCount == 2) {
-            SoundManager.instance.PlayAnouncer(doubleKillClip);
-			KillCounter.doubleKills++;
-		} else if (killCount == 3) {
-            SoundManager.instance.PlayAnouncer(tripleKillClip);
-			KillCounter.tripleKills++;
-        } else if (killCount > 3) {
-            SoundManager.instance.PlayAnouncer(monsterKillClip);
-			KillCounter.multiKills++;
-        }
     }
 
     public bool Ready {

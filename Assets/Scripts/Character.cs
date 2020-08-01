@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using Audio;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
@@ -152,13 +153,15 @@ public class Character : MonoBehaviour, IDamageTaker {
 
         if (Input.GetMouseButtonDown(0)) {
             if (!swordGroup.HasSwords) {
-                SoundManager.instance.PlayPlayerSound(outOfSwordsClip);
                 return;
             }
+            
             Vector3 shootPosition = GetWorldPositionOnPlane(Input.mousePosition, 0);
             if (!swordsRangeCheck() || shootPosition.y > swordMaxHeight) {
-                SoundManager.instance.PlayPlayerSound(outOfSwordsClip);
-                 return; }
+                return; 
+            }
+            
+            AudioManager.Instance.OnSwordLaunch();
             shootPosition.z = 0;
             swordGroup.ShootSword(shootPosition);
             animator.ResetTrigger("Attack");
