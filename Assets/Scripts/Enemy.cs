@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Audio;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour , IDamageTaker {
@@ -11,6 +12,7 @@ public class Enemy : MonoBehaviour , IDamageTaker {
     private Vector3 targetDirection;
 	bool isFacingRight = true;
 	public enemyType type = enemyType.DEFAULT;
+	public CreatureType creatureType;
 	private static int sineCount = 0;
     public GameObject powerUp;
     public GameObject[] buffs;
@@ -18,7 +20,6 @@ public class Enemy : MonoBehaviour , IDamageTaker {
 
     public static void resetLevel() {
 		Enemy.sineCount = 0;
-		Debug.Log(Enemy.sineCount);
 	}
 
 	private static int getMaxSineCount() {
@@ -29,6 +30,12 @@ public class Enemy : MonoBehaviour , IDamageTaker {
 		if (CombatManager.ScoreCounter < 60)
 			return 2;
 		return 3;
+	}
+	
+	public enum CreatureType {
+		Scorpion,
+		Spider,
+		Crawler
 	}
 
 	public enum enemyType
@@ -111,7 +118,9 @@ public class Enemy : MonoBehaviour , IDamageTaker {
     }
 
     private void Die() {
-        if (Random.Range(1, 101) < dropChance) {
+	    if (!gameObject.activeSelf) return;
+			
+	    if (Random.Range(1, 101) < dropChance) {
             int buffToUse = Random.Range(0, buffs.Length);
             PowerUp nextPowerUp = GameObject.Instantiate(powerUp, transform.position, Quaternion.identity).GetComponent<PowerUp>();
             nextPowerUp.buff = buffs[buffToUse];
@@ -120,6 +129,9 @@ public class Enemy : MonoBehaviour , IDamageTaker {
         if (type == enemyType.SINE) {
 			Enemy.sineCount -= 1;
         }
+
+	    AudioManager.Instance.OnCreatureDeath(transform.position, creatureType);
+
         gameObject.SetActive(false);
     }
 }

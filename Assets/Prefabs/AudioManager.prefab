@@ -71,11 +71,18 @@ MonoBehaviour:
   ScorpionDeathEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: efd8e7663df9766429d04f749d38e873,
+      type: 2}
   SpiderDeathEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 85a3ed828d21d24468478b692bcfe6e2,
+      type: 2}
+  CrawlerDeathEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d1e89882643edd84fa10d911c47439bd,
+      type: 2}
   WormDeathEvent:
     idInternal: 0
     valueGuidInternal: 
