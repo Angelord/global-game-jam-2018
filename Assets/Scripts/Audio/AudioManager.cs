@@ -25,11 +25,9 @@ namespace Audio {
         
         public AK.Wwise.Event CrawlerDeathEvent;
 
-        public AK.Wwise.Event WormDeathEvent;
-
         public AK.Wwise.Event WormLaserEvent;
 
-        public AK.Wwise.Event WormEmergeEvent;
+        public AK.Wwise.Event BossEmergeEvent;
 
         private static AudioManager instance;
 
@@ -56,6 +54,10 @@ namespace Audio {
 
         public void OnHeal() { HealEvent.Post(gameObject); }
 
+        public void OnBossEmerge() {
+            BossEmergeEvent.Post(gameObject);
+        }
+        
         public void OnCreatureDeath(Vector2 position, Enemy.CreatureType type) {
 
             if (!CreatureIsVisible(position)) {

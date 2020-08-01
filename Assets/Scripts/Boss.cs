@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Audio;
 using UnityEngine;
 
 public class Boss : MonoBehaviour {
@@ -57,11 +58,11 @@ public class Boss : MonoBehaviour {
 
     private void Dig() {
         sprite.sortingOrder = -1;
+        AudioManager.Instance.OnBossEmerge();
         animator.SetTrigger("Dig");
     }
 
     private void Emerge() {
-        SoundManager.instance.PlayWorm(wormSpawnClip);
         LookAtPlayer();
 		GameObject.FindGameObjectWithTag ("CameraBigShake").GetComponent<PerlinShake>().PlayShake();
         sprite.sortingOrder = 3;
