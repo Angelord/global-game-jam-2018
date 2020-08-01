@@ -161,7 +161,6 @@ public class Character : MonoBehaviour, IDamageTaker {
                 return; 
             }
             
-            AudioManager.Instance.OnSwordLaunch();
             shootPosition.z = 0;
             swordGroup.ShootSword(shootPosition);
             animator.ResetTrigger("Attack");

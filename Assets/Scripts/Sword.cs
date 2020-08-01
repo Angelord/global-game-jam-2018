@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using Audio;
+﻿using Audio;
 using UnityEngine;
 
 public class Sword : MonoBehaviour {
@@ -35,6 +33,8 @@ public class Sword : MonoBehaviour {
     private void SetReady() {
         GetComponent<SpriteRenderer>().enabled = true;
         ready = true;
+        
+        AudioManager.Instance.OnSwordAppear();
     }
 
     public void Shoot(Vector3 position) {

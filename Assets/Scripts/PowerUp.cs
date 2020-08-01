@@ -15,6 +15,7 @@ public class PowerUp : MonoBehaviour {
             Character character = collision.GetComponent<Character>();
             Apply(character);
 			character.TriggerHealFX ();
+            
             Debug.Log("Collected");
             this.gameObject.SetActive(false);
         }

@@ -1,6 +1,7 @@
 ﻿using System.Linq;
 using System.Collections;
 using System.Collections.Generic;
+using Audio;
 using UnityEngine;
 
 public class SwordGroup : MonoBehaviour {
@@ -23,7 +24,6 @@ public class SwordGroup : MonoBehaviour {
             if (swords[i].Ready) {
                 swords[i].transform.SetParent(null);
                 swords[i].Shoot(position);
-                SoundManager.instance.PlayEffect(swordSling);
                 swords[i] = null;
                 SummonSword(i, character.swordSummonSpeed);
                 return;
@@ -32,7 +32,7 @@ public class SwordGroup : MonoBehaviour {
     }
 
     private void SummonSword(int index, float summonSpeed) {
-        GameObject newSword = (GameObject)Instantiate(swordPrefab, swordPositions[index].position, swordPositions[index].rotation);
+        GameObject newSword = Instantiate(swordPrefab, swordPositions[index].position, swordPositions[index].rotation);
         newSword.transform.SetParent(swordPositions[index]);
         newSword.transform.localScale = swordPrefab.transform.localScale;
         newSword.GetComponent<Sword>().Initialize(summonSpeed);
