@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{12ECA180-F463-4FA3-B689-E7BDA823D149}" SchemaVersion="97">
+<WwiseDocument Type="WorkUnit" ID="{C6FA0FA2-8480-46E3-A9D8-7FFEAE483D3D}" SchemaVersion="97">
 	<SoundBanks>
-		<WorkUnit Name="Pantocrator" ID="{12ECA180-F463-4FA3-B689-E7BDA823D149}" PersistMode="Standalone"/>
+		<WorkUnit Name="Pantocrator" ID="{C6FA0FA2-8480-46E3-A9D8-7FFEAE483D3D}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Pantocrator" ID="{DABFFB6D-C29F-4A86-A521-4E649BA9A49A}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Sword_Burst" ID="{18F29AE6-09E8-4008-96AE-908F3AA55D4C}" WorkUnitID="{6CB1B76D-E89F-4299-B5C0-6ECAD8932627}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Sword_Ground" ID="{5DCE0F3A-E0EF-411E-A3BD-3F880EC96E2A}" WorkUnitID="{6CB1B76D-E89F-4299-B5C0-6ECAD8932627}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Worm_Emerge" ID="{CB8566CE-567F-4219-B822-96A7A9C16857}" WorkUnitID="{6CB1B76D-E89F-4299-B5C0-6ECAD8932627}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Button_Hover" ID="{432FFCA8-A775-4257-8EAB-C0CBD41AA25D}" WorkUnitID="{6CB1B76D-E89F-4299-B5C0-6ECAD8932627}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Laser_Worm" ID="{C60A7EE3-1EB9-4534-AB2E-97410D5D3C8F}" WorkUnitID="{6CB1B76D-E89F-4299-B5C0-6ECAD8932627}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Death_Worm" ID="{C64FDCB4-FDA1-45B8-AACF-03C5B1D2A3FE}" WorkUnitID="{6CB1B76D-E89F-4299-B5C0-6ECAD8932627}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Death_Spider" ID="{CA877B2D-DE60-48DA-A5FD-BC9700BD2ADE}" WorkUnitID="{6CB1B76D-E89F-4299-B5C0-6ECAD8932627}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music" ID="{F92A76E3-E2B5-4A37-B564-32363943F8EB}" WorkUnitID="{6FEE5800-D059-4A3A-A500-B49053A23341}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Button_Click" ID="{2F5B6295-AEFD-4C88-B9D5-6C9DC6EEAF5C}" WorkUnitID="{6CB1B76D-E89F-4299-B5C0-6ECAD8932627}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="B_Circle" ID="{712EAF97-B52A-4D50-80E2-777679C9613B}" WorkUnitID="{6CB1B76D-E89F-4299-B5C0-6ECAD8932627}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Health_Up" ID="{19410439-43D7-4E78-9A3A-7B403D9C3D52}" WorkUnitID="{6CB1B76D-E89F-4299-B5C0-6ECAD8932627}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Death_Scorpion" ID="{EB1E4235-EBFF-4EAE-A24E-3DCBE6D2027D}" WorkUnitID="{6CB1B76D-E89F-4299-B5C0-6ECAD8932627}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

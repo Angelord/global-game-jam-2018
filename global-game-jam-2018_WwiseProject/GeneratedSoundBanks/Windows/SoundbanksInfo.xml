@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>E:\Projects\Projects Fork\Source Folder\global-game-jam-2018\global-game-jam-2018_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>E:\Projects\Projects Fork\Source Folder\global-game-jam-2018\global-game-jam-2018_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\Projects\Projects Fork\Source Folder\global-game-jam-2018\global-game-jam-2018_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>E:\Projects\Projects Fork\Source Folder\global-game-jam-2018\global-game-jam-2018_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="326991126" Language="SFX">
+			<ObjectPath>\SoundBanks\Pantocrator\Pantocrator</ObjectPath>
+			<ShortName>Pantocrator</ShortName>
+			<Path>Pantocrator.bnk</Path>
+			<IncludedEvents>
+				<Event Id="920873796" Name="B_Circle" ObjectPath="\Events\Pantocrator_SFX\B_Circle" DurationType="OneShot" DurationMin="0.629721" DurationMax="0.667167">
+					<IncludedMemoryFiles>
+						<File Id="775499118" Language="SFX">
+							<ShortName>Pantocrator_SFX_B_Circle.wav</ShortName>
+							<Path>SFX\Pantocrator_SFX_B_Circle_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="814543256" Name="Button_Click" ObjectPath="\Events\Pantocrator_SFX\Button_Click" DurationType="OneShot" DurationMin="0.303416" DurationMax="0.340573">
+					<IncludedMemoryFiles>
+						<File Id="17291228" Language="SFX">
+							<ShortName>Pantocrator_SFX_Button_Click.wav</ShortName>
+							<Path>SFX\Pantocrator_SFX_Button_Click_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1701177942" Name="Button_Hover" ObjectPath="\Events\Pantocrator_SFX\Button_Hover" DurationType="OneShot" DurationMin="0.294658" DurationMax="0.326482">
+					<IncludedMemoryFiles>
+						<File Id="438107686" Language="SFX">
+							<ShortName>Pantocrator_SFX_Button_Hover_02.wav</ShortName>
+							<Path>SFX\Pantocrator_SFX_Button_Hover_02_10C4C929.wem</Path>
+						</File>
+						<File Id="649998283" Language="SFX">
+							<ShortName>Pantocrator_SFX_Button_Hover_01.wav</ShortName>
+							<Path>SFX\Pantocrator_SFX_Button_Hover_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="704136407" Name="Death_Scorpion" ObjectPath="\Events\Pantocrator_SFX\Death_Scorpion" DurationType="OneShot" DurationMin="0.496910" DurationMax="0.739146">
+					<IncludedMemoryFiles>
+						<File Id="506073471" Language="SFX">
+							<ShortName>Pantocrator_SFX_Death_Scorpion_01.wav</ShortName>
+							<Path>SFX\Pantocrator_SFX_Death_Scorpion_01_10C4C929.wem</Path>
+						</File>
+						<File Id="878655166" Language="SFX">
+							<ShortName>Pantocrator_SFX_Death_Scorpion_02.wav</ShortName>
+							<Path>SFX\Pantocrator_SFX_Death_Scorpion_02_10C4C929.wem</Path>
+						</File>
+						<File Id="952324145" Language="SFX">
+							<ShortName>Pantocrator_SFX_Death_Scorpion_03.wav</ShortName>
+							<Path>SFX\Pantocrator_SFX_Death_Scorpion_03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2978702903" Name="Death_Spider" ObjectPath="\Events\Pantocrator_SFX\Death_Spider" DurationType="OneShot" DurationMin="0.472325" DurationMax="0.561692">
+					<IncludedMemoryFiles>
+						<File Id="203681362" Language="SFX">
+							<ShortName>Pantocrator_SFX_Death_Spider.wav</ShortName>
+							<Path>SFX\Pantocrator_SFX_Death_Spider_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3094151069" Name="Death_Worm" ObjectPath="\Events\Pantocrator_SFX\Death_Worm" DurationType="OneShot" DurationMin="0.475424" DurationMax="0.598354">
+					<IncludedMemoryFiles>
+						<File Id="144948471" Language="SFX">
+							<ShortName>Pantocrator_SFX_Death_Worm_02.wav</ShortName>
+							<Path>SFX\Pantocrator_SFX_Death_Worm_02_10C4C929.wem</Path>
+						</File>
+						<File Id="584171049" Language="SFX">
+							<ShortName>Pantocrator_SFX_Death_Worm_01.wav</ShortName>
+							<Path>SFX\Pantocrator_SFX_Death_Worm_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2084407605" Name="Health_Up" ObjectPath="\Events\Pantocrator_SFX\Health_Up" DurationType="OneShot" DurationMin="2.419863" DurationMax="2.490771">
+					<IncludedMemoryFiles>
+						<File Id="874664392" Language="SFX">
+							<ShortName>Pantocrator_SFX_Health_Up_01.wav</ShortName>
+							<Path>SFX\Pantocrator_SFX_Health_Up_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3377198616" Name="Laser_Worm" ObjectPath="\Events\Pantocrator_SFX\Laser_Worm" DurationType="OneShot" DurationMin="1.140146" DurationMax="1.279771">
+					<IncludedMemoryFiles>
+						<File Id="63630884" Language="SFX">
+							<ShortName>Pantocrator_SFX_Laser_Worm.wav</ShortName>
+							<Path>SFX\Pantocrator_SFX_Laser_Worm_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Pantocrator_Music\Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="188710017" Language="SFX">
+							<ShortName>Music\Pantocrator_M_InGame_Drums_01_120_4-4.wav</ShortName>
+							<Path>Voices\English(US)\Music\Pantocrator_M_InGame_Drums_01_120_4-4_D79FB2B7.wem</Path>
+						</File>
+						<File Id="228950394" Language="SFX">
+							<ShortName>Pantocrator_M_Menu_120_4-4.wav</ShortName>
+							<Path>Voices\English(US)\Pantocrator_M_Menu_120_4-4_D79FB2B7.wem</Path>
+						</File>
+						<File Id="333738638" Language="SFX">
+							<ShortName>Music\Pantocrator_M_InGame_Backspin_120_4-4.wav</ShortName>
+							<Path>Voices\English(US)\Music\Pantocrator_M_InGame_Backspin_120_4-4_D79FB2B7.wem</Path>
+						</File>
+						<File Id="513801684" Language="SFX">
+							<ShortName>Music\Pantocrator_M_InGame_Bass_120_4-4.wav</ShortName>
+							<Path>Voices\English(US)\Music\Pantocrator_M_InGame_Bass_120_4-4_D79FB2B7.wem</Path>
+						</File>
+						<File Id="675362644" Language="SFX">
+							<ShortName>Pantocrator_M_Death_C_120_4-4.wav</ShortName>
+							<Path>Voices\English(US)\Pantocrator_M_Death_C_120_4-4_D79FB2B7.wem</Path>
+						</File>
+						<File Id="833336751" Language="SFX">
+							<ShortName>Music\Pantocrator_M_InGame_Lead_120_4-4.wav</ShortName>
+							<Path>Voices\English(US)\Music\Pantocrator_M_InGame_Lead_120_4-4_D79FB2B7.wem</Path>
+						</File>
+						<File Id="866627371" Language="SFX">
+							<ShortName>Music\Pantocrator_M_InGame_Trumpet_120_4-4.wav</ShortName>
+							<Path>Voices\English(US)\Music\Pantocrator_M_InGame_Trumpet_120_4-4_D79FB2B7.wem</Path>
+						</File>
+						<File Id="885678159" Language="SFX">
+							<ShortName>Music\Pantocrator_M_InGame_Cymbals_120_4-4.wav</ShortName>
+							<Path>Voices\English(US)\Music\Pantocrator_M_InGame_Cymbals_120_4-4_D79FB2B7.wem</Path>
+						</File>
+						<File Id="989850071" Language="SFX">
+							<ShortName>Music\Pantocrator_M_InGame_Drums_02_120_4-4.wav</ShortName>
+							<Path>Voices\English(US)\Music\Pantocrator_M_InGame_Drums_02_120_4-4_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{B6376BE6-222A-4642-AD68-2B62BA18492D}">
+							<Children>
+								<SwitchContainer SwitchValue="{5F1C8E4B-BCF6-4527-A486-B477348489F0}">
+									<Media>
+										<File Id="333738638"/>
+										<File Id="513801684"/>
+										<File Id="885678159"/>
+										<File Id="188710017"/>
+										<File Id="989850071"/>
+										<File Id="833336751"/>
+										<File Id="866627371"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{5EA294BF-5314-4E53-9F7A-8CC592878757}">
+							<Children>
+								<SwitchContainer SwitchValue="{5F1C8E4B-BCF6-4527-A486-B477348489F0}">
+									<Media>
+										<File Id="675362644"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{B6376BE6-222A-4642-AD68-2B62BA18492D}">
+							<Children>
+								<SwitchContainer SwitchValue="{0E94EBDF-5D93-426E-ACC3-5082A1E781EB}">
+									<Media>
+										<File Id="228950394"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{5EA294BF-5314-4E53-9F7A-8CC592878757}">
+							<Children/>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="725403295" Name="Sword_Burst" ObjectPath="\Events\Pantocrator_SFX\Sword_Burst" DurationType="OneShot" DurationMin="0.327864" DurationMax="0.463951">
+					<IncludedMemoryFiles>
+						<File Id="532348225" Language="SFX">
+							<ShortName>Pantocrator_SFX_Sword_Burst_02.wav</ShortName>
+							<Path>SFX\Pantocrator_SFX_Sword_Burst_02_10C4C929.wem</Path>
+						</File>
+						<File Id="638343827" Language="SFX">
+							<ShortName>Pantocrator_SFX_Sword_Burst_01.wav</ShortName>
+							<Path>SFX\Pantocrator_SFX_Sword_Burst_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="202368702" Name="Sword_Ground" ObjectPath="\Events\Pantocrator_SFX\Sword_Ground" DurationType="OneShot" DurationMin="0.292404" DurationMax="0.390313">
+					<IncludedMemoryFiles>
+						<File Id="276225286" Language="SFX">
+							<ShortName>Pantocrator_SFX_Sword_Ground_02.wav</ShortName>
+							<Path>SFX\Pantocrator_SFX_Sword_Ground_02_10C4C929.wem</Path>
+						</File>
+						<File Id="860715772" Language="SFX">
+							<ShortName>Pantocrator_SFX_Sword_Ground_01.wav</ShortName>
+							<Path>SFX\Pantocrator_SFX_Sword_Ground_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="934569492" Name="Worm_Emerge" ObjectPath="\Events\Pantocrator_SFX\Worm_Emerge" DurationType="OneShot" DurationMin="6.110291" DurationMax="6.110291">
+					<IncludedMemoryFiles>
+						<File Id="240461814" Language="SFX">
+							<ShortName>Pantocrator_SFX_Worm_Growl_01.wav</ShortName>
+							<Path>SFX\Pantocrator_SFX_Worm_Growl_01_10C4C929.wem</Path>
+						</File>
+						<File Id="280896302" Language="SFX">
+							<ShortName>Pantocrator_SFX_Worm_Growl_03.wav</ShortName>
+							<Path>SFX\Pantocrator_SFX_Worm_Growl_03_10C4C929.wem</Path>
+						</File>
+						<File Id="994342709" Language="SFX">
+							<ShortName>Pantocrator_SFX_Worm_Growl_02.wav</ShortName>
+							<Path>SFX\Pantocrator_SFX_Worm_Growl_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<StateGroups>
+				<StateGroup Id="1382476432" Name="State" ObjectPath="\States\Default Work Unit\Pantocrator\State">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Pantocrator\State\None"/>
+						<State Id="2044049779" Name="Dead" ObjectPath="\States\Default Work Unit\Pantocrator\State\Dead"/>
+						<State Id="655265632" Name="Alive" ObjectPath="\States\Default Work Unit\Pantocrator\State\Alive"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3826569560" Name="Music_State" ObjectPath="\States\Default Work Unit\Pantocrator\Music_State">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Pantocrator\Music_State\None"/>
+						<State Id="89505537" Name="Gameplay" ObjectPath="\States\Default Work Unit\Pantocrator\Music_State\Gameplay"/>
+						<State Id="2607556080" Name="Menu" ObjectPath="\States\Default Work Unit\Pantocrator\Music_State\Menu"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
