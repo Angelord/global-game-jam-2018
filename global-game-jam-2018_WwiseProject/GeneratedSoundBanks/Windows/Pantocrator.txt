@@ -6,10 +6,12 @@ Event	ID	Name			Wwise Object Path	Notes
 	920873796	B_Circle			\Pantocrator_SFX\B_Circle	
 	934569492	Worm_Emerge			\Pantocrator_SFX\Worm_Emerge	
 	1701177942	Button_Hover			\Pantocrator_SFX\Button_Hover	
+	1809005675	Sword_Attack			\Pantocrator_SFX\Sword_Attack	
 	2084407605	Health_Up			\Pantocrator_SFX\Health_Up	
 	2978702903	Death_Spider			\Pantocrator_SFX\Death_Spider	
 	3094151069	Death_Worm			\Pantocrator_SFX\Death_Worm	
 	3377198616	Laser_Worm			\Pantocrator_SFX\Laser_Worm	
+	3690986026	Message			\Pantocrator_SFX\Message	
 	3991942870	Music			\Pantocrator_Music\Music	
 
 State Group	ID	Name			Wwise Object Path	Notes
@@ -43,9 +45,11 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	513801684	Pantocrator_M_InGame_Bass_120_4-4	E:\Projects\Projects Fork\Source Folder\global-game-jam-2018\global-game-jam-2018_WwiseProject\.cache\Windows\Voices\English(US)\Music\Pantocrator_M_InGame_Bass_120_4-4_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Music\Music_In_Game\Music_InGame\Pantocrator_M_InGame_Bass_120_4-4		9216064
 	532348225	Pantocrator_SFX_Sword_Burst_02	E:\Projects\Projects Fork\Source Folder\global-game-jam-2018\global-game-jam-2018_WwiseProject\.cache\Windows\SFX\Pantocrator_SFX_Sword_Burst_02_10C4C929.wem		\Actor-Mixer Hierarchy\Pantocrator\Pantocrator_Sword_Burst\Pantocrator_SFX_Sword_Burst_02		39744
 	584171049	Pantocrator_SFX_Death_Worm_01	E:\Projects\Projects Fork\Source Folder\global-game-jam-2018\global-game-jam-2018_WwiseProject\.cache\Windows\SFX\Pantocrator_SFX_Death_Worm_01_10C4C929.wem		\Actor-Mixer Hierarchy\Pantocrator\Pantocrator_Death_Worm\Pantocrator_SFX_Death_Worm_01		51294
+	630112813	Pantocrator_SFX_Message	E:\Projects\Projects Fork\Source Folder\global-game-jam-2018\global-game-jam-2018_WwiseProject\.cache\Windows\SFX\Pantocrator_SFX_Message_10C4C929.wem		\Actor-Mixer Hierarchy\Pantocrator\Pantocrator_SFX_Message		719454
 	638343827	Pantocrator_SFX_Sword_Burst_01	E:\Projects\Projects Fork\Source Folder\global-game-jam-2018\global-game-jam-2018_WwiseProject\.cache\Windows\SFX\Pantocrator_SFX_Sword_Burst_01_10C4C929.wem		\Actor-Mixer Hierarchy\Pantocrator\Pantocrator_Sword_Burst\Pantocrator_SFX_Sword_Burst_01		39720
 	649998283	Pantocrator_SFX_Button_Hover_01	E:\Projects\Projects Fork\Source Folder\global-game-jam-2018\global-game-jam-2018_WwiseProject\.cache\Windows\SFX\Pantocrator_SFX_Button_Hover_01_10C4C929.wem		\Actor-Mixer Hierarchy\Pantocrator\Pantocrator_Button_Hover\Pantocrator_SFX_Button_Hover_01		29180
 	675362644	Pantocrator_M_Death_C_120_4-4	E:\Projects\Projects Fork\Source Folder\global-game-jam-2018\global-game-jam-2018_WwiseProject\.cache\Windows\Voices\English(US)\Pantocrator_M_Death_C_120_4-4_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Music\Music_Death\Pantocrator_Music_Death\Pantocrator_M_Death_C_120_4-4		1008084
+	748423322	Pantocrator_SFX_Sword_Attack	E:\Projects\Projects Fork\Source Folder\global-game-jam-2018\global-game-jam-2018_WwiseProject\.cache\Windows\SFX\Pantocrator_SFX_Sword_Attack_10C4C929.wem		\Actor-Mixer Hierarchy\Pantocrator\Pantocrator_SFX_Sword_Attack		63282
 	775499118	Pantocrator_SFX_B_Circle	E:\Projects\Projects Fork\Source Folder\global-game-jam-2018\global-game-jam-2018_WwiseProject\.cache\Windows\SFX\Pantocrator_SFX_B_Circle_10C4C929.wem		\Actor-Mixer Hierarchy\Pantocrator\Pantocrator_SFX_B_Circle		64112
 	833336751	Pantocrator_M_InGame_Lead_120_4-4	E:\Projects\Projects Fork\Source Folder\global-game-jam-2018\global-game-jam-2018_WwiseProject\.cache\Windows\Voices\English(US)\Music\Pantocrator_M_InGame_Lead_120_4-4_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Music\Music_In_Game\Music_InGame\Pantocrator_M_InGame_Lead_120_4-4		9216064
 	860715772	Pantocrator_SFX_Sword_Ground_01	E:\Projects\Projects Fork\Source Folder\global-game-jam-2018\global-game-jam-2018_WwiseProject\.cache\Windows\SFX\Pantocrator_SFX_Sword_Ground_01_10C4C929.wem		\Actor-Mixer Hierarchy\Pantocrator\Pantocrator_Sword_Ground\Pantocrator_SFX_Sword_Ground_01		33446

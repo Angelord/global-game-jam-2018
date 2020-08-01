@@ -11,10 +11,12 @@
 						<ObjectRef Name="Button_Hover" ID="{432FFCA8-A775-4257-8EAB-C0CBD41AA25D}" WorkUnitID="{6CB1B76D-E89F-4299-B5C0-6ECAD8932627}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Laser_Worm" ID="{C60A7EE3-1EB9-4534-AB2E-97410D5D3C8F}" WorkUnitID="{6CB1B76D-E89F-4299-B5C0-6ECAD8932627}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Death_Worm" ID="{C64FDCB4-FDA1-45B8-AACF-03C5B1D2A3FE}" WorkUnitID="{6CB1B76D-E89F-4299-B5C0-6ECAD8932627}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Sword_Attack" ID="{5E842280-A1F5-46E9-8C74-F33536CF08B6}" WorkUnitID="{6CB1B76D-E89F-4299-B5C0-6ECAD8932627}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Death_Spider" ID="{CA877B2D-DE60-48DA-A5FD-BC9700BD2ADE}" WorkUnitID="{6CB1B76D-E89F-4299-B5C0-6ECAD8932627}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music" ID="{F92A76E3-E2B5-4A37-B564-32363943F8EB}" WorkUnitID="{6FEE5800-D059-4A3A-A500-B49053A23341}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Button_Click" ID="{2F5B6295-AEFD-4C88-B9D5-6C9DC6EEAF5C}" WorkUnitID="{6CB1B76D-E89F-4299-B5C0-6ECAD8932627}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="B_Circle" ID="{712EAF97-B52A-4D50-80E2-777679C9613B}" WorkUnitID="{6CB1B76D-E89F-4299-B5C0-6ECAD8932627}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Message" ID="{CFD3A84C-B64A-4E3C-9F9D-1ACBC394DA56}" WorkUnitID="{6CB1B76D-E89F-4299-B5C0-6ECAD8932627}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Health_Up" ID="{19410439-43D7-4E78-9A3A-7B403D9C3D52}" WorkUnitID="{6CB1B76D-E89F-4299-B5C0-6ECAD8932627}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Death_Scorpion" ID="{EB1E4235-EBFF-4EAE-A24E-3DCBE6D2027D}" WorkUnitID="{6CB1B76D-E89F-4299-B5C0-6ECAD8932627}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

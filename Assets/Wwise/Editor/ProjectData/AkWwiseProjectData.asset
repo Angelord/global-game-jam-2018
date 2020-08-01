@@ -3,22 +3,327 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b11ee6ddec9bbbb4dab1a0a660378e83, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
-  AcousticTextureWwu: []
-  AuxBusWwu: []
-  BankWwu: []
-  EventWwu: []
-  RtpcWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  TriggerWwu: []
-  ExpandedItems: []
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 92e923b79c0d9f4aaa758296ac24bc01
+    GuidInternal: 
+    m_lastTime: -8586081408137849305
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: f5db0755c3f86e42a9944f765f93a758
+    GuidInternal: 
+    m_lastTime: -8586081408138482982
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 647e9baa91a8254f98643a4b653adfab
+    GuidInternal: 
+    m_lastTime: -8586054097251798970
+    List: []
+  - PhysicalPath: SoundBanks\Pantocrator.wwu
+    ParentPath: Pantocrator
+    guid: a20ffac68084e346a9d87ffeae483d3d
+    GuidInternal: 
+    m_lastTime: -8586054096561095460
+    List:
+    - name: Pantocrator
+      guid: 6dfbbfda9fc2864aa5214e649ba9a49a
+      id: 326991126
+      PathAndIcons:
+      - ElementName: Pantocrator
+        ObjectType: 12
+      - ElementName: Pantocrator
+        ObjectType: 7
+      Path: Pantocrator\Pantocrator
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 7cf612bc9169404cb459121a4af29952
+    GuidInternal: 
+    m_lastTime: -8586081408138216430
+    List: []
+  - PhysicalPath: Events\Pantocrator_Music.wwu
+    ParentPath: Pantocrator_Music
+    guid: 0058ee6f59d03a4aa500b49053a23341
+    GuidInternal: 
+    m_lastTime: -8586058367560177924
+    List:
+    - name: Music
+      guid: e3762af9b5e2374ab56432363943f8eb
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Pantocrator_Music
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 3
+      Path: Pantocrator_Music\Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  - PhysicalPath: Events\Pantocrator_SFX.wwu
+    ParentPath: Pantocrator_SFX
+    guid: 6db7b16c9fe89942b5c06ecad8932627
+    GuidInternal: 
+    m_lastTime: -8586058359903001687
+    List:
+    - name: B_Circle
+      guid: 97af2e712ab5504d80e2777679c9613b
+      id: 920873796
+      PathAndIcons:
+      - ElementName: Pantocrator_SFX
+        ObjectType: 12
+      - ElementName: B_Circle
+        ObjectType: 3
+      Path: Pantocrator_SFX\B_Circle
+      maxAttenuation: 0
+      maxDuration: 0.667167
+      minDuration: 0.629721
+    - name: Button_Click
+      guid: 95625b2ffdae884cb9d56c9dc6eeaf5c
+      id: 814543256
+      PathAndIcons:
+      - ElementName: Pantocrator_SFX
+        ObjectType: 12
+      - ElementName: Button_Click
+        ObjectType: 3
+      Path: Pantocrator_SFX\Button_Click
+      maxAttenuation: 0
+      maxDuration: 0.340573
+      minDuration: 0.303416
+    - name: Button_Hover
+      guid: a8fc2f4375a757428eabc0cbd41aa25d
+      id: 1701177942
+      PathAndIcons:
+      - ElementName: Pantocrator_SFX
+        ObjectType: 12
+      - ElementName: Button_Hover
+        ObjectType: 3
+      Path: Pantocrator_SFX\Button_Hover
+      maxAttenuation: 0
+      maxDuration: 0.326482
+      minDuration: 0.294658
+    - name: Death_Scorpion
+      guid: 35421eebffebae4ea24e3dcbe6d2027d
+      id: 704136407
+      PathAndIcons:
+      - ElementName: Pantocrator_SFX
+        ObjectType: 12
+      - ElementName: Death_Scorpion
+        ObjectType: 3
+      Path: Pantocrator_SFX\Death_Scorpion
+      maxAttenuation: 0
+      maxDuration: 0.739146
+      minDuration: 0.49691
+    - name: Death_Spider
+      guid: 2d7b87ca60deda48a5fdbc9700bd2ade
+      id: 2978702903
+      PathAndIcons:
+      - ElementName: Pantocrator_SFX
+        ObjectType: 12
+      - ElementName: Death_Spider
+        ObjectType: 3
+      Path: Pantocrator_SFX\Death_Spider
+      maxAttenuation: 0
+      maxDuration: 0.561692
+      minDuration: 0.472325
+    - name: Death_Worm
+      guid: b4dc4fc6a1fdb845aacf03c5b1d2a3fe
+      id: 3094151069
+      PathAndIcons:
+      - ElementName: Pantocrator_SFX
+        ObjectType: 12
+      - ElementName: Death_Worm
+        ObjectType: 3
+      Path: Pantocrator_SFX\Death_Worm
+      maxAttenuation: 0
+      maxDuration: 0.598354
+      minDuration: 0.475424
+    - name: Health_Up
+      guid: 39044119d743784e9a3a7b403d9c3d52
+      id: 2084407605
+      PathAndIcons:
+      - ElementName: Pantocrator_SFX
+        ObjectType: 12
+      - ElementName: Health_Up
+        ObjectType: 3
+      Path: Pantocrator_SFX\Health_Up
+      maxAttenuation: 0
+      maxDuration: 2.490771
+      minDuration: 2.419863
+    - name: Laser_Worm
+      guid: e37e0ac6b91e3445ab2e97410d5d3c8f
+      id: 3377198616
+      PathAndIcons:
+      - ElementName: Pantocrator_SFX
+        ObjectType: 12
+      - ElementName: Laser_Worm
+        ObjectType: 3
+      Path: Pantocrator_SFX\Laser_Worm
+      maxAttenuation: 0
+      maxDuration: 1.279771
+      minDuration: 1.140146
+    - name: Sword_Burst
+      guid: e69af218e809084096ae908f3aa55d4c
+      id: 725403295
+      PathAndIcons:
+      - ElementName: Pantocrator_SFX
+        ObjectType: 12
+      - ElementName: Sword_Burst
+        ObjectType: 3
+      Path: Pantocrator_SFX\Sword_Burst
+      maxAttenuation: 0
+      maxDuration: 0.463951
+      minDuration: 0.327864
+    - name: Sword_Ground
+      guid: 3a0fce5defe01e41a3bd3f880ec96e2a
+      id: 202368702
+      PathAndIcons:
+      - ElementName: Pantocrator_SFX
+        ObjectType: 12
+      - ElementName: Sword_Ground
+        ObjectType: 3
+      Path: Pantocrator_SFX\Sword_Ground
+      maxAttenuation: 0
+      maxDuration: 0.390313
+      minDuration: 0.292404
+    - name: Worm_Emerge
+      guid: ce6685cb7f561942b82296a7a9c16857
+      id: 934569492
+      PathAndIcons:
+      - ElementName: Pantocrator_SFX
+        ObjectType: 12
+      - ElementName: Worm_Emerge
+        ObjectType: 3
+      Path: Pantocrator_SFX\Worm_Emerge
+      maxAttenuation: 0
+      maxDuration: 6.110291
+      minDuration: 6.110291
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 9c379afc14201747ac3b3a76c77c13ad
+    GuidInternal: 
+    m_lastTime: -8586081408138276763
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: a51ec60fedc72b4abcf3001d75e35e36
+    GuidInternal: 
+    m_lastTime: -8586058367559550588
+    List: []
+  - PhysicalPath: States\Pantocrator.wwu
+    ParentPath: Default Work Unit\Pantocrator
+    guid: 1c0f06e70a794849b67ddd1157d1880f
+    GuidInternal: 
+    m_lastTime: -8586058365081422017
+    List:
+    - name: Music_State
+      guid: 4b8e1c5ff6bc2745a486b477348489f0
+      id: 3826569560
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Pantocrator
+        ObjectType: 12
+      - ElementName: Music_State
+        ObjectType: 9
+      Path: Default Work Unit\Pantocrator\Music_State
+      values:
+      - name: Gameplay
+        guid: 71dfabcc7c1d7c47af9881a7032551ba
+        id: 89505537
+        PathAndIcons:
+        - ElementName: Gameplay
+          ObjectType: 8
+      - name: Menu
+        guid: dfeb940e935d6e42acc35082a1e781eb
+        id: 2607556080
+        PathAndIcons:
+        - ElementName: Menu
+          ObjectType: 8
+      - name: None
+        guid: e992011244488c4085d1943d2e827ac5
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: State
+      guid: b255d5cb1f5fc14fb1ff27b07b113b71
+      id: 1382476432
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Pantocrator
+        ObjectType: 12
+      - ElementName: State
+        ObjectType: 9
+      Path: Default Work Unit\Pantocrator\State
+      values:
+      - name: Alive
+        guid: e66b37b62a224246ad682b62ba18492d
+        id: 655265632
+        PathAndIcons:
+        - ElementName: Alive
+          ObjectType: 8
+      - name: Dead
+        guid: bf94a25e1453534e9f7a8cc592878757
+        id: 2044049779
+        PathAndIcons:
+        - ElementName: Dead
+          ObjectType: 8
+      - name: None
+        guid: c5f4d823de7ed64b8075266bc2c7c4f4
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: e090a86607675742b6899c4d0feb2fc2
+    GuidInternal: 
+    m_lastTime: -8586081408138156064
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 80bc976054ecee49852278ac4d067059
+    GuidInternal: 
+    m_lastTime: -8586081408137965014
+    List: []
+  ExpandedItems:
+  - /global-game-jam-2018_WwiseProject
+  - /global-game-jam-2018_WwiseProject/Events
+  - /global-game-jam-2018_WwiseProject/Events/Pantocrator_Music
+  - /global-game-jam-2018_WwiseProject/Events/Pantocrator_SFX
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

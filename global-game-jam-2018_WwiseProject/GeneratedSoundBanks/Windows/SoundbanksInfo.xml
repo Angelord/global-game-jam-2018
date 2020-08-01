@@ -96,6 +96,14 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3690986026" Name="Message" ObjectPath="\Events\Pantocrator_SFX\Message" DurationType="OneShot" DurationMin="7.493646" DurationMax="7.493646">
+					<IncludedMemoryFiles>
+						<File Id="630112813" Language="SFX">
+							<ShortName>Pantocrator_SFX_Message.wav</ShortName>
+							<Path>SFX\Pantocrator_SFX_Message_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Pantocrator_Music\Music" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="188710017" Language="SFX">
@@ -173,6 +181,14 @@
 							<Children/>
 						</SwitchContainer>
 					</SwitchContainers>
+				</Event>
+				<Event Id="1809005675" Name="Sword_Attack" ObjectPath="\Events\Pantocrator_SFX\Sword_Attack" DurationType="OneShot" DurationMin="0.603866" DurationMax="0.739165">
+					<IncludedMemoryFiles>
+						<File Id="748423322" Language="SFX">
+							<ShortName>Pantocrator_SFX_Sword_Attack.wav</ShortName>
+							<Path>SFX\Pantocrator_SFX_Sword_Attack_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="725403295" Name="Sword_Burst" ObjectPath="\Events\Pantocrator_SFX\Sword_Burst" DurationType="OneShot" DurationMin="0.327864" DurationMax="0.463951">
 					<IncludedMemoryFiles>

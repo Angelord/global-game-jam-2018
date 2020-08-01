@@ -124,6 +124,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Message" ID="{CFD3A84C-B64A-4E3C-9F9D-1ACBC394DA56}">
+					<ChildrenList>
+						<Action Name="" ID="{DAF3E253-4418-4271-BBD5-A5816363153C}" ShortID="389440068">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pantocrator_SFX_Message" ID="{B8C01491-FBEC-4319-8636-C4A96B5665D6}" WorkUnitID="{CCD644CD-1518-4CC7-9630-A148070B3C5E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Sword_Attack" ID="{5E842280-A1F5-46E9-8C74-F33536CF08B6}">
+					<ChildrenList>
+						<Action Name="" ID="{8E209743-5950-49B7-AA37-AB0F9075B5D0}" ShortID="570120322">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pantocrator_SFX_Sword_Attack" ID="{E2DA4886-DC9A-4AF0-818E-24C7B7474F67}" WorkUnitID="{CCD644CD-1518-4CC7-9630-A148070B3C5E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

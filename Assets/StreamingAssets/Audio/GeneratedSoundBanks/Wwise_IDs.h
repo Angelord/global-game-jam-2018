@@ -21,7 +21,9 @@ namespace AK
         static const AkUniqueID DEATH_WORM = 3094151069U;
         static const AkUniqueID HEALTH_UP = 2084407605U;
         static const AkUniqueID LASER_WORM = 3377198616U;
+        static const AkUniqueID MESSAGE = 3690986026U;
         static const AkUniqueID MUSIC = 3991942870U;
+        static const AkUniqueID SWORD_ATTACK = 1809005675U;
         static const AkUniqueID SWORD_BURST = 725403295U;
         static const AkUniqueID SWORD_GROUND = 202368702U;
         static const AkUniqueID WORM_EMERGE = 934569492U;

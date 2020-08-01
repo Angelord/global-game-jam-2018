@@ -133,6 +133,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioManager
       objectReference: {fileID: 0}
+    - target: {fileID: 4193672334714167070, guid: 85e5a57a110a7864884b6cefcb193aac,
+        type: 3}
+      propertyPath: BossEmergeEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 01591937b44545f44afd8d5015bf8514,
+        type: 2}
     - target: {fileID: 4193672334714167071, guid: 85e5a57a110a7864884b6cefcb193aac,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1975,7 +1981,7 @@ PrefabInstance:
     - target: {fileID: 114793722614781096, guid: 201502e63ee092141b9ad7c37633a9db,
         type: 3}
       propertyPath: spawnThreshold
-      value: 20
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 201502e63ee092141b9ad7c37633a9db, type: 3}
