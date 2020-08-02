@@ -41,6 +41,7 @@ public class Sword : MonoBehaviour {
         shooting = true;
         GetComponent<Collider2D>().enabled = true;
         target = position;
+        AudioManager.Instance.OnSwordAttack();
     }
 
     private void Update() {

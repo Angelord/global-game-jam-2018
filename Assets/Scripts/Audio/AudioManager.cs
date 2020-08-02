@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using UnityEditor.VersionControl;
+using UnityEngine;
 
 namespace Audio {
     public class AudioManager : MonoBehaviour {
@@ -15,11 +16,19 @@ namespace Audio {
 
         public AK.Wwise.State PlayerDeadState;
 
-        [Header("GUI")] public AK.Wwise.Event BtnHoverEvent;
+        [Header("GUI")] 
+        
+        public AK.Wwise.Event MessageEvent;
+        
+        public AK.Wwise.Event BtnHoverEvent;
 
         public AK.Wwise.Event BtnClickEvent;
 
-        [Header("Player")] public AK.Wwise.Event SwordAppearEvent;
+        [Header("Player")]
+        
+        public AK.Wwise.Event SwordAppearEvent;
+
+        public AK.Wwise.Event SwordAttackEvent;
 
         public AK.Wwise.Event SwordHitEvent;
 
@@ -27,7 +36,9 @@ namespace Audio {
 
         public AK.Wwise.Event PulseEvent;
 
-        [Header("Enemies")] public AK.Wwise.Event ScorpionDeathEvent;
+        [Header("Enemies")] 
+        
+        public AK.Wwise.Event ScorpionDeathEvent;
 
         public AK.Wwise.Event SpiderDeathEvent;
 
@@ -57,6 +68,7 @@ namespace Audio {
         public void SetMainMenuState() {
             PlayerAliveState.SetValue();
             MenuState.SetValue();
+            MessageEvent.Post(gameObject);
         }
 
         public void SetGameState() {
@@ -73,6 +85,8 @@ namespace Audio {
         public void OnButtonPress() { BtnClickEvent.Post(gameObject); }
 
         public void OnSwordAppear() { SwordAppearEvent.Post(gameObject); }
+
+        public void OnSwordAttack() { SwordAttackEvent.Post(gameObject); }
 
         public void OnSwordHit() { SwordHitEvent.Post(gameObject); }
 
