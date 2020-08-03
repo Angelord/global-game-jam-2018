@@ -43,6 +43,7 @@ public class MainMenu : MonoBehaviour {
     private void Update() {
         if (Input.anyKey) {
             if (!menuEnabled) {
+                AudioManager.Instance.OnMessageCancel();
                 EnableMenu();
             }
             else if (Time.time >= nextAllowedSwitch) {

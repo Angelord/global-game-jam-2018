@@ -79,7 +79,12 @@ MonoBehaviour:
   MessageEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 788b964d9c9f41a459a09845f18c4fc2,
+    WwiseObjectReference: {fileID: 11400000, guid: 87fd55b73f5c0944aae1fd1699d40690,
+      type: 2}
+  CancelMessageEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 901bfba76f2871f44b989837b73b7d0c,
       type: 2}
   BtnHoverEvent:
     idInternal: 0
@@ -99,7 +104,7 @@ MonoBehaviour:
   SwordAttackEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 476d8bdb7f3d9c547b9301e5fee660d6,
+    WwiseObjectReference: {fileID: 11400000, guid: f42c0dc065ea1a3489cfa1304efbc9ae,
       type: 2}
   SwordHitEvent:
     idInternal: 0

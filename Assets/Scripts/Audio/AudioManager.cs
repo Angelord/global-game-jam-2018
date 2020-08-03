@@ -19,7 +19,9 @@ namespace Audio {
         [Header("GUI")] 
         
         public AK.Wwise.Event MessageEvent;
-        
+
+        public AK.Wwise.Event CancelMessageEvent;
+
         public AK.Wwise.Event BtnHoverEvent;
 
         public AK.Wwise.Event BtnClickEvent;
@@ -79,6 +81,8 @@ namespace Audio {
         public void SetGameOverState() {
             PlayerDeadState.SetValue();
         }
+
+        public void OnMessageCancel() { CancelMessageEvent.Post(gameObject); }
 
         public void OnButtonHover() { BtnHoverEvent.Post(gameObject); }
 
