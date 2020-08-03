@@ -13,6 +13,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3377198616	Laser_Worm			\Pantocrator_SFX\Laser_Worm	
 	3690986026	Message			\Pantocrator_SFX\Message	
 	3991942870	Music			\Pantocrator_Music\Music	
+	4229766809	Message_Stop			\Pantocrator_SFX\Message_Stop	
 
 State Group	ID	Name			Wwise Object Path	Notes
 	1382476432	State			\Default Work Unit\Pantocrator\State	

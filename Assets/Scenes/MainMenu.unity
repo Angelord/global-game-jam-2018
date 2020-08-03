@@ -2297,6 +2297,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 01591937b44545f44afd8d5015bf8514,
         type: 2}
+    - target: {fileID: 4193672334714167070, guid: 85e5a57a110a7864884b6cefcb193aac,
+        type: 3}
+      propertyPath: MessageEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 87fd55b73f5c0944aae1fd1699d40690,
+        type: 2}
+    - target: {fileID: 4193672334714167070, guid: 85e5a57a110a7864884b6cefcb193aac,
+        type: 3}
+      propertyPath: SwordAttackEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: f42c0dc065ea1a3489cfa1304efbc9ae,
+        type: 2}
     - target: {fileID: 4193672334714167071, guid: 85e5a57a110a7864884b6cefcb193aac,
         type: 3}
       propertyPath: m_LocalPosition.x

@@ -10,6 +10,7 @@
 				<Property Name="Event Action List\{5DCE0F3A-E0EF-411E-A3BD-3F880EC96E2A}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{5E842280-A1F5-46E9-8C74-F33536CF08B6}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{712EAF97-B52A-4D50-80E2-777679C9613B}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{B384BD8B-1FFF-4F7E-958B-4A378E1195E4}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{C60A7EE3-1EB9-4534-AB2E-97410D5D3C8F}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{C64FDCB4-FDA1-45B8-AACF-03C5B1D2A3FE}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{CA877B2D-DE60-48DA-A5FD-BC9700BD2ADE}\x64_Expand States" Type="string" Value=""/>
@@ -38,7 +39,7 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="rQiNlWnXcUWjU4a8f4vsew=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="bfu/2p/ChkqlIU5km6mkmg=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
-				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="POkxn01JZEmnXBmPOWrQbAGC5/r/////A1yK4l4ev0CmVZWkDl1xjAGC5/r/////"/>
+				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="POkxn01JZEmnXBmPOWrQbAGC0Pr/////A1yK4l4ev0CmVZWkDl1xjAGC0Pr/////"/>
 				<Property Name="Interactive Music\x64_{24BE0D70-D2CE-41AC-A636-BEE177B5343B} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP6uqqqqqCiNAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{26E8B011-BB57-41D7-AECC-AED3F78CE45C} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP3d3d3d3dy5AAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{3CB8B82C-F8C4-498F-9A19-5D7C90A0877B} - SegmentEditorZoomInfo" Type="string" Value="2+9bVsUK6D+1ne+nxkv1P6uqqqqqCiNAAAAAAAAA8D8AAAAAAAAAAAAAAAAAiJFA"/>

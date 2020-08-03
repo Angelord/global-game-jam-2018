@@ -146,6 +146,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Message_Stop" ID="{B384BD8B-1FFF-4F7E-958B-4A378E1195E4}">
+					<ChildrenList>
+						<Action Name="" ID="{F226F880-6590-4ABC-B1BD-2A84781BD37A}" ShortID="1056085635">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pantocrator_SFX_Message" ID="{B8C01491-FBEC-4319-8636-C4A96B5665D6}" WorkUnitID="{CCD644CD-1518-4CC7-9630-A148070B3C5E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
